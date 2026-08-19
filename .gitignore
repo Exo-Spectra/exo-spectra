@@ -1,0 +1,5 @@
+data/spectra/
+data/raw/
+data/jwst_raw/
+data/jwst_reduced/
+__pycache__/

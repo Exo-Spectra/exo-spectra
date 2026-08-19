@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or the result catalogs, please cite this repository."
+title: "exo-spectra: homogeneous consistency and anomaly catalogs for published exoplanet spectra"
+authors:
+  - family-names: "Godala"
+    given-names: "Mateusz"
+repository-code: "https://github.com/Exo-Spectra/exo-spectra"
+license: MIT
+keywords:
+  - exoplanets
+  - transmission spectroscopy
+  - atmospheric variability
+  - anomaly detection
+  - NASA Exoplanet Archive
+abstract: >
+  Homogeneous statistical analysis of all published exoplanet atmospheric
+  spectra in the NASA Exoplanet Archive: (1) an archive-wide catalog of
+  epoch-to-epoch consistency tests (chi-squared with free offset/slope,
+  false-discovery-rate control, pair provenance classification), and
+  (2) a model-independent anomaly search (per-spectrum structure tests,
+  PCA shape outliers within instrument cohorts, and a point-anomaly catalog
+  with instrument hotspot maps).

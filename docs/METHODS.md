@@ -1,0 +1,85 @@
+# Methods
+
+All statistics are model-free: no atmospheric models, no assumed chemistry.
+Inputs are the published data points and their quoted uncertainties.
+
+## Data
+
+NASA Exoplanet Archive, TAP table `spectra` (Atmospheric Spectroscopy):
+1826 spectra, 289 planets. Each spectrum is an IPAC table with central
+wavelength, bandwidth, measured value (transit depth [%] / eclipse depth [%] /
+F_lambda), asymmetric uncertainties, and a limit flag. We use only real
+measurements (finite value, at least one finite error, limit flag = 0) and
+symmetrize asymmetric errors by averaging the two sides. Spectrum types are
+never mixed; direct-imaging spectra are excluded from population statistics
+(flux units are not consistent between papers).
+
+## Pair consistency test (Study 1)
+
+For two spectra A, B of the same planet and type with overlapping wavelengths:
+
+1. **Common grid.** The sparser spectrum defines the grid. For each of its
+   points, the denser spectrum's points inside the bandpass
+   [w − dw/2, w + dw/2] are averaged with inverse-variance weights; if the
+   bandpass is empty or undefined, linear interpolation is used and flagged
+   (`n_interp`). At least 3 matched points are required.
+2. **Offset model.** chi2 = Σ w_i (B_i − A_i − c)^2 with w_i = 1/(σ_A² + σ_B²),
+   c fitted analytically, dof = n − 1. p = P(chi2 ≥ observed).
+3. **Offset + slope model.** B − A = c + m·(λ − ⟨λ⟩_w) with weighted-centered
+   wavelength (orthogonal parameters), dof = n − 2. A pair that is discrepant
+   under the offset model but consistent under offset+slope has a smooth,
+   tilted difference — the signature of changing stellar contamination.
+   A pair discrepant under both has structural (band-like) differences.
+4. **Multiple testing.** Benjamini–Hochberg FDR at 1%, applied separately to
+   same-instrument and cross-instrument samples.
+
+**Pair provenance.** Pairs are classified before interpretation:
+- *shared-data suspects*: p > 0.999 with n ≥ 8 (statistically too consistent),
+  or overlapping per-point observation dates (eclipse spectra);
+- the archive `note` field labels visits and reduction pipelines
+  (Eureka!, ExoTiC-JEDI, Tiberius, FIREFLy) and derived products
+  (co-adds, joint fits, averages), yielding classes:
+  `epoch_same_pipeline` (gold sample), `same_data_diff_pipe`,
+  `epoch_diff_pipeline`, `derived`, `cross_paper`.
+
+Known limitation: the shared-data flag catches re-reductions that *agree*;
+re-reductions that *disagree* (the interesting disputes) appear as anomalies
+and must be resolved from the literature.
+
+## Structure statistics (Study 2, Tier A)
+
+Per spectrum with ≥5 usable points, weighted least squares against three nulls:
+constant (dof n−1), offset+slope (dof n−2), and a weighted polynomial of degree
+3/2/1 depending on n (capped by the number of distinct wavelengths; fit on a
+centered, scaled wavelength variable). Diagnostics: lag-1 autocorrelation of
+slope-model residuals (times √n for significance) and per-point deviations from
+a centered running median (window 5), in units of the point's own σ.
+BH-FDR at 1% on the flat-model p-values, per spectrum type.
+
+## Cohort shape analysis (Study 2, Tier B)
+
+Cohorts = instrument regex + wavelength window with a fixed bin grid.
+Per member: inverse-variance bin means; ≥80% bin coverage required;
+missing bins imputed with the cohort median shape (flagged via `coverage`).
+Shape normalization: subtract the weighted mean, divide by the standard
+deviation of the binned values — removing transit-depth scale and
+scale-height amplitude. PCA via SVD on the column-centered shape matrix;
+k components at 90% explained variance (max 8). Outlier scores:
+
+1. reconstruction residual outside the top-k subspace,
+2. Mahalanobis distance with iteratively trimmed (3 × 10%) center/covariance,
+3. mean distance to the 5 nearest neighbors in PC space.
+
+Final rank = median of the three score ranks. `amp_snr` = shape amplitude /
+median bin error distinguishes signal-shaped from noise-shaped members.
+
+## Point anomalies and hotspots (Study 2, Tier C)
+
+Points with |z| > 4 against their spectrum's running local median enter the
+catalog. Each anomaly is cross-checked for repeatability: other spectra of the
+same planet and type covering that wavelength (±2%) either confirm
+(same sign, |z| > 2) or contradict it. Anomalies are then aggregated per
+instrument in 1%-wide logarithmic wavelength bins; bins collecting ≥3
+anomalies from ≥2 different planets are "hotspots" — candidate instrument or
+reduction systematics rather than astrophysics (though recurring real features,
+like the 1.4 µm water band, also produce hotspots and must be separated by hand).

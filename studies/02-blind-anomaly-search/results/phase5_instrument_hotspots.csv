@@ -1,0 +1,13 @@
+instrument,n_anomalies,n_planets,n_spectra,wave_lo,wave_hi,mean_z
+Near Infrared Spectrograph (NIRSpec),5,2,2,5.02637,5.12695,-0.12480309438264428
+Mid-Infrared Instrument (MIRI) - LRS,3,2,3,6.625,6.72,-2.636800021042085
+Near Infrared Imager and Slitless Spectrograph (NIRISS),3,2,2,0.9814,0.98414,-1.790690459602362
+Near Infrared Imager and Slitless Spectrograph (NIRISS),3,2,3,0.76294,0.76685,1.5452320725077913
+Near Infrared Imager and Slitless Spectrograph (NIRISS),3,2,3,1.08175,1.08682,5.493554740772365
+Near Infrared Imager and Slitless Spectrograph (NIRISS),3,2,2,1.12389,1.1347,-1.6526109791232757
+Near Infrared Imager and Slitless Spectrograph (NIRISS),3,2,2,2.37615,2.38604,-1.4808101486713767
+Near Infrared Imager and Slitless Spectrograph (NIRISS),3,2,2,2.17008,2.17991,-1.8040019350944754
+Near Infrared Spectrograph (NIRSpec),3,3,3,3.03088,3.04576,1.8204328459748538
+Near Infrared Spectrograph (NIRSpec) - G395H,3,2,3,3.31269,3.34367,-4.133787943530766
+Wide Field Camera 3,3,3,3,1.156,1.163,1.1019921142166622
+Wide Field Camera 3,3,3,3,1.3605,1.38005,1.3310091735562597

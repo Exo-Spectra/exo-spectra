@@ -1,0 +1,244 @@
+spec_id,pl_name,spec_type,instrument,authors,bibcode,wave,value,sigma,z_local,n_other_specs,n_confirming,n_contradicting
+125,KELT-9 b,Transmission,Potsdam Echelle Polarimetric & Spectroscopic Instrument (PEPSI),Cauley et al. 2019,2019AJ....157...69C,0.65628,1.103,0.0095,97.05263157894737,0,0,0
+125,KELT-9 b,Transmission,Potsdam Echelle Polarimetric & Spectroscopic Instrument (PEPSI),Cauley et al. 2019,2019AJ....157...69C,0.48613,0.783,0.0095,68.31578947368422,0,0,0
+913,WASP-17 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Louie et al. 2025,2025AJ....169...86L,2.0582,1.29799,0.00861,-25.464576074332168,1,1,0
+125,KELT-9 b,Transmission,Potsdam Echelle Polarimetric & Spectroscopic Instrument (PEPSI),Cauley et al. 2019,2019AJ....157...69C,0.49576,0.121,0.0125,-23.439999999999998,0,0,0
+125,KELT-9 b,Transmission,Potsdam Echelle Polarimetric & Spectroscopic Instrument (PEPSI),Cauley et al. 2019,2019AJ....157...69C,0.5169,0.475,0.014499999999999999,20.896551724137932,0,0,0
+1601,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.59334,5.9284,0.016599999999999997,-13.373493975903642,7,3,2
+1599,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.10667,6.1102,0.0096,-10.61458333333339,7,7,0
+125,KELT-9 b,Transmission,Potsdam Echelle Polarimetric & Spectroscopic Instrument (PEPSI),Cauley et al. 2019,2019AJ....157...69C,0.48242,0.134,0.014499999999999999,-9.655172413793105,0,0,0
+125,KELT-9 b,Transmission,Potsdam Echelle Polarimetric & Spectroscopic Instrument (PEPSI),Cauley et al. 2019,2019AJ....157...69C,0.53166,0.317,0.014499999999999999,9.379310344827587,0,0,0
+699,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,5.25,0.49015,0.00397,-9.088161209068012,4,4,0
+704,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,5.25,0.47379,0.0037400000000000003,-8.639037433155082,4,4,0
+707,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,5.25,0.48444,0.00434,-8.552995391705078,4,4,0
+1009,TRAPPIST-1 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Rathcke et al. 2025,2025ApJ...979L..19R,1.58096,0.53617,0.021335,-8.507616592453711,1,0,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,5.1204,0.38528,0.01002,-8.484031936127742,0,0,0
+697,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,5.25,0.48265,0.00468,-8.450854700854695,4,4,0
+837,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec),Carter et al. 2024,2024NatAs...8.1008C,1.89437,2.16717,0.00292,8.191780821917789,3,1,1
+394,HAT-P-23 b,Transmission,DLR-MKIII camera,Ciceri et al. 2015,2015A&A...577A..54C,0.6469,1.49328,0.025175,8.176564051638533,0,0,0
+702,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,5.25,0.48622,0.004295,-8.079161816065207,4,4,0
+704,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,6.25,0.53676,0.0033299999999999996,7.6426426426426355,4,4,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,5.12695,0.40152,0.00909,-7.565456545654564,0,0,0
+900,HD 189733 b,Eclipse,Mid-Infrared Instrument (MIRI) - LRS,Inglis et al. 2024,2024ApJ...973L..41I,6.625,0.2667,0.0019,-7.368421052631586,1,1,0
+125,KELT-9 b,Transmission,Potsdam Echelle Polarimetric & Spectroscopic Instrument (PEPSI),Cauley et al. 2019,2019AJ....157...69C,0.53629,0.154,0.0155,-7.354838709677421,0,0,0
+1600,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.11367,6.1439,0.0099,-7.2020202020201936,7,6,1
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,2.71308,0.60099,0.03068,7.2002933507170805,0,0,0
+552,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Dyrek et al. 2024,2024Natur.625...51D,6.57,2.1006,0.0065,7.1076923076923455,3,3,0
+516,WASP-76 b,Eclipse,Wide Field Camera 3,Mansfield et al. 2021,2021NatAs...5.1224M,1.563,0.1273,0.004,6.999999999999999,3,0,0
+552,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Dyrek et al. 2024,2024Natur.625...51D,6.87,2.0351,0.0073,-6.876712328767157,3,3,0
+293,WASP-33 b,Eclipse,Wide Field Camera 3,Haynes et al. 2015,2015ApJ...806..146H,1.276,0.0305,0.0096,-6.822916666666668,2,0,0
+464,HD 189733 b,Transmission,Near Infrared Camera and Multi-Object Spectrometer,Swain et al. 2008,2008NATUR.452..329S,2.06,2.371,0.006,-6.666666666666672,1,0,0
+1678,WASP-33 b,Eclipse,Wide Field Camera 3,Haynes et al. 2015,2015ApJ...806..146H,1.243,0.098,0.00257,-6.6147859922179,2,1,0
+702,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,6.75,0.51433,0.005155,-6.595538312318144,4,4,0
+650,WASP-33 b,Eclipse,Wide Field Camera 3,Changeat et al. 2022,2022ApJS..260....3C,1.243,0.098,0.0026,-6.538461538461539,2,1,0
+707,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,6.75,0.51414,0.0048,-6.487499999999989,4,4,0
+1601,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.09969,6.0769,0.015050000000000001,-6.465116279069749,7,6,1
+551,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Dyrek et al. 2024,2024Natur.625...51D,7.02,2.042,0.0047,-6.382978723404308,3,3,0
+1599,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,2.20377,6.2504,0.0126,6.341269841269865,7,5,2
+550,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Dyrek et al. 2024,2024Natur.625...51D,6.87,2.0301,0.0079,-6.30379746835441,3,3,0
+704,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,6.75,0.51131,0.00404,-6.299504950495042,4,4,0
+1589,Kepler-51 d,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Libby-Roberts et al. 2026,2026AJ....171..221L,4.38568,0.98522,0.010065000000000001,6.28812717337307,0,0,0
+699,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,6.75,0.51754,0.00441,-6.2857142857142785,4,4,0
+900,HD 189733 b,Eclipse,Mid-Infrared Instrument (MIRI) - LRS,Inglis et al. 2024,2024ApJ...973L..41I,6.375,0.2807,0.002,6.250000000000005,1,1,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,4.73255,0.404,0.00802,-6.187032418952619,0,0,0
+519,WASP-74 b,Transmission,Wide Field Camera 3,Fu et al. 2021,2021AJ....162..271F,3.6,0.85008,0.006805,-6.177810433504787,0,0,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,5.1073,0.48812,0.00959,6.160583941605842,0,0,0
+871,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Rustamkulov et al. 2023,2023Natur.614..659R,2.02479,2.08777,0.00464,-6.148706896551712,3,3,0
+1599,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.1233,6.2127,0.0094,6.127659574468072,7,2,5
+1599,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,2.45243,6.3164,0.015,6.079999999999982,7,4,1
+697,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,6.75,0.51396,0.005215,-6.007670182166842,4,4,0
+125,KELT-9 b,Transmission,Potsdam Echelle Polarimetric & Spectroscopic Instrument (PEPSI),Cauley et al. 2019,2019AJ....157...69C,0.5276,0.268,0.016,5.937500000000002,0,0,0
+1603,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.6001,6.0521,0.019200000000000002,-5.927083333333305,7,3,1
+493,WASP-189 b,Transmission,CUTE NUV Spectrograph,Sreejith et al. 2023,2023ApJ...954L..23S,0.251,0.33872,0.31087,-5.908900826712131,0,0,0
+261,HD 189733 b,Transmission,Space Telescope Imaging Spectrograph,Sing et al. 2016,2016Natur.529...59S,0.5895,2.46584,0.0034549999999999997,5.895803183791671,1,1,0
+462,HD 189733 b,Transmission,Space Telescope Imaging Spectrograph,Pont et al. 2013,2013MNRAS.432.2917P,0.5895,2.46584,0.0034549999999999997,5.895803183791671,1,1,0
+899,HD 189733 b,Eclipse,Mid-Infrared Instrument (MIRI) - LRS,Inglis et al. 2024,2024ApJ...973L..41I,6.625,0.271,0.0023,-5.869565217391285,1,1,0
+1056,TOI-270 d,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Felix et al. 2025,2025A&A...701A.296F,2.05836,0.34827,0.01324,5.867069486404836,0,0,0
+702,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,6.25,0.54833,0.00469,5.844349680170562,4,4,0
+1600,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,2.45904,6.3036,0.0153,5.843137254901985,7,4,1
+578,WASP-96 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Radica et al. 2023,2023MNRAS.524..835R,1.99994,1.29076,0.04249,-5.841374441044956,1,0,0
+1603,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,3.49387,6.4137,0.039599999999999996,5.818181818181828,7,3,1
+552,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Dyrek et al. 2024,2024Natur.625...51D,7.02,2.0475,0.0065,-5.815384615384659,3,3,0
+61,WASP-18 b,Eclipse,Near Infrared Imager and Slitless Spectrograph (NIRISS),Coulombe et al. 2023,2023Natur.620..292C,2.73498,0.56279,0.05455,5.799083409715857,3,1,2
+706,WASP-43 b,Transmission,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,10.75,2.44029,0.00495,-5.777777777777769,3,1,0
+796,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,1.08682,1.92409,0.00492,5.758130081300852,2,2,0
+706,WASP-43 b,Transmission,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,9.75,2.49842,0.00517,5.711798839458382,3,1,0
+1599,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.09034,6.1246,0.0097,-5.670103092783476,7,3,4
+1601,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.08349,6.0866,0.015550000000000001,-5.633440514469461,7,2,5
+20,HAT-P-1 b,Transmission,OSIRIS,Wilson et al. 2015,2015MNRAS.450..192W,0.6792,1.38298,0.030574999999999998,-5.62649223221586,2,0,0
+578,WASP-96 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Radica et al. 2023,2023MNRAS.524..835R,0.9814,1.3279,0.02356,-5.620967741935476,3,1,0
+170,WASP-39 b,Transmission,Wide Field Camera 3,Wakeford et al. 2018,2018AJ....155...29W,1.0552,2.09005,0.004335,-5.619377162629692,4,1,1
+373,GJ 1214 b,Transmission,OSIRIS,Wilson et al. 2014,2014MNRAS.438.2395W,0.855,1.21926,0.030914999999999998,-5.589843118227395,2,1,0
+488,HD 189733 b,Transmission,Space Telescope Imaging Spectrograph,Cubillos et al. 2023,2023A&A...671A.170C,0.23919,4.4944,0.3816,5.562893081761006,1,1,0
+536,LHS 475 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,Lustig-Yaeger et al. 2023,2023NatAs...7.1317L,4.81445,0.02374,0.01993,-5.551430005017561,3,0,2
+707,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,6.25,0.54528,0.00428,5.5420560747663465,4,4,0
+837,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec),Carter et al. 2024,2024NatAs...8.1008C,1.0436,2.09294,0.004275,-5.541520467836203,4,1,1
+871,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Rustamkulov et al. 2023,2023Natur.614..659R,1.64094,2.05848,0.00597,-5.505862646566157,5,2,0
+796,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,0.74085,1.88041,0.00662,-5.4848942598187405,4,0,2
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,4.54058,0.41995,0.00727,-5.464924346629984,0,0,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,4.45427,0.43148,0.00678,-5.424778761061952,0,0,0
+77,WASP-39 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Feinstein et al. 2023,2023Natur.614..670F,1.08175,2.13636,0.00497,5.376257545271557,4,1,1
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,4.77215,0.48378,0.00801,5.369538077403245,0,0,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,1.084,2.04476,0.0188,5.346276595744686,2,2,0
+552,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Dyrek et al. 2024,2024Natur.625...51D,6.72,2.0853,0.0058,5.327586206896616,3,2,0
+843,HIP 67522 b,Transmission,Near Infrared Spectrograph (NIRSpec),Thao et al. 2024,2024AJ....168..297T,3.0395,0.5207,0.00883,5.318233295583246,2,2,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,2.1032,2.03425,0.04238,5.312647475224167,2,1,0
+837,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec),Carter et al. 2024,2024NatAs...8.1008C,0.59308,2.18332,0.005235,5.298949379178624,5,1,0
+1654,KELT-20 b,Transmission,Wide Field Camera 3,Chachan et al. 2025,2025AJ....170..234C,0.25,1.4699,0.0104,5.278846153846149,1,0,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,4.81172,0.41188,0.00819,-5.263736263736262,0,0,0
+837,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec),Carter et al. 2024,2024NatAs...8.1008C,1.36193,2.16524,0.004195,5.234803337306312,5,2,0
+551,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Dyrek et al. 2024,2024Natur.625...51D,6.57,2.0945,0.0073,5.178082191780799,3,3,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,2.77815,2.13025,0.08215,5.155325623858798,2,2,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,0.62273,1.79758,0.05174,-5.064746810977964,4,0,1
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,3.57311,0.4087,0.00454,-5.061674008810573,0,0,0
+1050,KELT-7 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,Ahrer et al. 2025,2025MNRAS.543.2442A,4.20962,0.77837,0.00652,-5.04907975460122,3,2,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,2.17008,1.67631,0.03827,-5.043114711262087,2,2,0
+4,CoRoT-1 b,Transmission,SpeX and MORIS,Schlawin et al. 2014,2014ApJ...783....5S,0.86,1.92932,0.033335000000000004,-5.021148942552868,1,0,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,4.50737,0.42332,0.00677,-5.013293943870019,0,0,0
+1605,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,2.21255,6.2946,0.02785,5.012567324955107,7,5,2
+1599,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.32342,6.1864,0.0083,5.012048192771068,7,4,0
+871,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Rustamkulov et al. 2023,2023Natur.614..659R,1.9134,2.15521,0.00398,4.994974874371778,3,1,1
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,4.55379,0.45968,0.007,4.977142857142854,0,0,0
+520,WASP-74 b,Eclipse,Wide Field Camera 3,Fu et al. 2021,2021AJ....162..271F,3.6,0.143,0.0081,4.975308641975309,0,0,0
+1603,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.10523,6.1412,0.0164,-4.957317073170714,7,7,0
+216,WASP-18 b,Eclipse,Wide Field Camera 3,Arcangeli et al. 2018,2018ApJ...855L..30A,1.156,0.0775,0.002,-4.950000000000003,6,1,0
+1600,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.13042,6.2152,0.0095,4.926315789473703,7,4,3
+293,WASP-33 b,Eclipse,Wide Field Camera 3,Haynes et al. 2015,2015ApJ...806..146H,1.281,0.245,0.0252,4.920634920634921,2,0,0
+796,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,1.93693,1.91165,0.00746,4.890080428954433,2,0,2
+578,WASP-96 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Radica et al. 2023,2023MNRAS.524..835R,0.92236,1.55216,0.02833,4.86763148605718,3,0,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,5.11385,0.47604,0.00967,4.860392967942094,0,0,0
+837,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec),Carter et al. 2024,2024NatAs...8.1008C,1.6608,2.08436,0.00459,-4.836601307189493,4,1,0
+900,HD 189733 b,Eclipse,Mid-Infrared Instrument (MIRI) - LRS,Inglis et al. 2024,2024ApJ...973L..41I,9.6875,0.4365,0.0036,4.833333333333341,1,0,0
+551,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Dyrek et al. 2024,2024Natur.625...51D,6.87,2.0364,0.0074,-4.810810810810821,3,3,0
+1600,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.76872,6.2479,0.01,4.809999999999981,7,6,0
+697,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,6.25,0.54529,0.004815,4.795430944963667,4,4,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,0.78428,1.73179,0.03089,-4.7892521851731935,3,1,0
+1599,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.76064,6.2443,0.0098,4.78571428571428,7,5,1
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,1.12803,1.83629,0.0157,-4.779617834394904,2,1,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,4.75893,0.41118,0.00842,-4.74346793349169,0,0,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,4.61349,0.4952,0.00734,4.742506811989094,0,0,0
+77,WASP-39 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Feinstein et al. 2023,2023Natur.614..670F,0.76685,2.16605,0.00838,4.737470167064421,7,1,0
+699,WASP-43 b,Eclipse,Mid-Infrared Instrument (MIRI),Bell et al. 2024,2024NatAs...8..879B,6.25,0.54526,0.00402,4.733830845771142,4,4,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,0.98414,1.95368,0.01893,4.727945060750139,2,1,1
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,0.70981,2.036,0.02681,4.726221559119735,4,0,0
+1604,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,3.50072,6.3747,0.042550000000000004,4.690951821386609,7,3,2
+184,HAT-P-41 b,Transmission,Wide Field Camera 3,Wakeford et al. 2020,2020AJ....159..204W,0.305,1.06577,0.0135,4.644444444444459,0,0,0
+550,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Dyrek et al. 2024,2024Natur.625...51D,4.76,2.0464,0.006,4.641666666666655,6,2,2
+20,HAT-P-1 b,Transmission,OSIRIS,Wilson et al. 2015,2015MNRAS.450..192W,0.8844,1.36422,0.051394999999999996,-4.641307520186788,2,0,0
+578,WASP-96 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Radica et al. 2023,2023MNRAS.524..835R,2.17991,1.15597,0.05887,-4.620689655172416,1,1,0
+1602,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.09355,6.123,0.015099999999999999,-4.615894039735106,7,5,2
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,1.5055,1.95703,0.02092,4.61567877629063,2,1,1
+766,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Welbanks et al. 2024,2024Natur.630..836W,7.468,2.1386,0.0072,4.6111111111110965,3,3,0
+520,WASP-74 b,Eclipse,Wide Field Camera 3,Fu et al. 2021,2021AJ....162..271F,4.5,0.182,0.0085,4.588235294117648,0,0,0
+871,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Rustamkulov et al. 2023,2023Natur.614..659R,0.70554,2.12571,0.00695,4.587050359712249,6,1,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,4.06081,0.45176,0.0051,4.5705882352941165,0,0,0
+536,LHS 475 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,Lustig-Yaeger et al. 2023,2023NatAs...7.1317L,4.58175,0.02188,0.01811,-4.564329099944781,3,1,1
+765,WASP-107 b,Transmission,Near Infrared Spectrograph (NIRSpec),Sing et al. 2024,2024Natur.630..831S,3.03088,2.09922,0.00964,4.563278008298753,4,0,1
+1602,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.10993,6.1234,0.0152,-4.559210526315798,7,6,1
+675,TrES-4 b,Transmission,Wide Field Camera 3,Edwards et al. 2023,2023ApJS..269...31E,1.3605,0.8074,0.04085,-4.546634026927784,1,0,0
+900,HD 189733 b,Eclipse,Mid-Infrared Instrument (MIRI) - LRS,Inglis et al. 2024,2024ApJ...973L..41I,5.125,0.2305,0.0035,-4.542857142857142,1,1,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,2.53088,1.70708,0.06673,-4.540836205604676,2,0,2
+1603,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.22743,6.1185,0.0139,-4.539568345323769,7,3,2
+898,HD 189733 b,Eclipse,Near Infrared Camera (NIRCam),Zhang et al. 2025,2025AJ....169...38Z,4.325,0.14306,0.002835,-4.532627865961199,0,0,0
+1706,HAT-P-11 b,Transmission,Wide Field Camera 3,Mansfield et al. 2018,2018ApJ...868L..34M,1.0834,0.356,0.0034,4.529411764705873,2,0,1
+1601,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,0.80822,6.215,0.028249999999999997,-4.5274336283185965,7,4,0
+1573,LTT 3780 c,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Rigby et al. 2025,2025ApJ...995L..70R,1.40884,0.27658,0.01567,-4.525207402680283,0,0,0
+639,WASP-121 b,Transmission,GMOS,Wilson et al. 2021,2021MNRAS.503.4787W,0.855,1.53363,0.01065,4.522065727699529,1,0,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,2.19467,1.69863,0.04378,-4.521014161717678,2,2,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,2.77212,2.22253,0.0831,4.518531889290011,2,2,0
+1599,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.50146,6.2218,0.0089,4.494382022471914,7,1,1
+552,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Dyrek et al. 2024,2024Natur.625...51D,7.47,2.139,0.0077,4.49350649350646,3,3,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,0.62398,1.82631,0.05275,-4.482843601895734,4,0,1
+578,WASP-96 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Radica et al. 2023,2023MNRAS.524..835R,0.98414,1.33567,0.02649,-4.479048697621749,3,1,0
+766,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Welbanks et al. 2024,2024Natur.630..836W,6.567,2.1055,0.0106,4.471698113207557,3,3,0
+796,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,2.71443,1.98366,0.01397,4.465282748747307,2,2,0
+260,WASP-18 b,Eclipse,Near Infrared Imager and Slitless Spectrograph (NIRISS),Coulombe et al. 2023,2023Natur.620..292C,1.89171,0.21854,0.0127,4.4606299212598435,3,3,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,1.46655,1.81247,0.01739,-4.457734330074758,2,0,2
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,0.66202,2.06932,0.03234,4.455163883735305,4,2,0
+1602,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,0.81412,6.2295,0.02725,-4.455045871559648,7,4,0
+1600,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,0.81626,6.2679,0.0176,-4.448863636363613,7,4,0
+1716,HAT-P-11 b,Transmission,Wide Field Camera 3,Chachan et al. 2019,2019AJ....158..244C,1.495,0.33074,0.0033350000000000003,-4.428785607196403,1,1,0
+1605,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.37231,6.1104,0.018000000000000002,-4.427777777777771,7,5,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,3.04576,0.41576,0.00376,-4.420212765957438,0,0,0
+801,LHS 1140 b,Transmission,Near Infrared Spectrograph (NIRSpec),Damiano et al. 2024,2024ApJ...968L..22D,1.7837,0.53275,0.00284,-4.415492957746516,1,1,0
+543,K2-18 b,Transmission,Near Infrared Spectrograph (NIRSpec),Madhusudhan et al. 2023,2023ApJ...956L..13M,5.02637,0.52045,0.06539,4.40449610032115,0,0,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,4.5737,0.4662,0.00687,4.4017467248908275,0,0,0
+578,WASP-96 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Radica et al. 2023,2023MNRAS.524..835R,2.38567,1.16222,0.07014,-4.401625320786997,1,1,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,3.83293,0.40525,0.00446,-4.401345291479816,0,0,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,1.25132,1.83464,0.01507,-4.38155275381553,2,0,1
+665,HIP 41378 f,Transmission,Wide Field Camera 3,Edwards et al. 2023,2023ApJS..269...31E,1.38005,0.47492,0.00237,4.379746835443038,1,0,0
+293,WASP-33 b,Eclipse,Wide Field Camera 3,Haynes et al. 2015,2015ApJ...806..146H,1.615,0.179,0.0128,4.374999999999999,0,0,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,0.82333,2.05562,0.03783,4.370076658736444,3,1,0
+587,CoRoT-1 b,Eclipse,Wide Field Camera 3,Changeat et al. 2022,2022ApJS..260....3C,1.6237,0.0286,0.0162,-4.364197530864198,0,0,0
+578,WASP-96 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Radica et al. 2023,2023MNRAS.524..835R,1.78563,1.55348,0.04046,4.364063272367767,1,0,0
+1086,GJ 1132 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395M,Bennett et al. 2025,2025AJ....170..205B,4.54589,0.26211,0.00662,4.354984894259822,20,4,0
+1052,KELT-7 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,Ahrer et al. 2025,2025MNRAS.543.2442A,3.34367,0.7979,0.00434,-4.35023041474652,3,1,0
+1008,TRAPPIST-1 c,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Rathcke et al. 2025,2025ApJ...979L..19R,2.11484,0.74617,0.012385,4.349616471538149,2,0,0
+19,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fu et al. 2022,2022ApJ...940L..35F,1.2909,1.9336,0.0149,4.348993288590602,2,0,1
+1638,HAT-P-41 b,Transmission,Space Telescope Imaging Spectrograph,Sheppard et al. 2021,2021AJ....161...51S,0.561,0.9221,0.0279,-4.344086021505372,2,0,0
+1600,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.14747,6.2422,0.0097,4.340206185567059,7,5,2
+1605,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.392,6.1106,0.018349999999999998,-4.33242506811991,7,2,4
+1037,K2-22 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Tusay et al. 2025,2025ApJ...987L...6T,8.63848,1.16219,0.30251,4.327757760074047,1,0,0
+1601,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.41312,6.2099,0.01405,4.313167259786476,7,4,1
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,2.53286,2.0891,0.06311,4.308033592140709,2,2,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,0.76294,1.78816,0.03022,-4.300132362673726,3,0,2
+771,WASP-107 b,Transmission,Near Infrared Camera (NIRCam),Welbanks et al. 2024,2024Natur.630..836W,3.1475,2.0885,0.0075,4.279999999999973,4,2,1
+536,LHS 475 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,Lustig-Yaeger et al. 2023,2023NatAs...7.1317L,4.41716,0.02098,0.01764,-4.276077097505669,3,0,2
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,2.58641,2.16237,0.06758,4.269014501331758,2,1,0
+495,WASP-127 b,Transmission,Wide Field Camera 3,Skaf et al. 2020,2020AJ....160..109S,1.1262,0.98,0.0053,-4.264150943396218,0,0,0
+871,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Rustamkulov et al. 2023,2023Natur.614..659R,2.06111,2.11632,0.00481,4.264033264033224,3,2,1
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,2.58541,1.71154,0.06462,-4.263385948622715,2,0,1
+316,WASP-4 b,Transmission,Y4KCam,Hoyer et al. 2013,2013MNRAS.434...46H,0.7886,2.42736,0.037395,4.26046262869368,0,0,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,1.61494,1.93349,0.0215,4.256744186046504,2,2,0
+578,WASP-96 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Radica et al. 2023,2023MNRAS.524..835R,2.17794,1.56079,0.06116,4.251798561151077,1,0,1
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,0.83491,1.73094,0.04154,-4.243139142994706,3,0,2
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,4.9105,0.47385,0.00868,4.243087557603683,0,0,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,2.666,2.23385,0.07548,4.240196078431372,2,2,0
+1023,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),Barat et al. 2025,2025AJ....170..165B,3.1271,0.41893,0.00375,-4.239999999999992,0,0,0
+489,HD 189733 b,Transmission,Space Telescope Imaging Spectrograph,Cubillos et al. 2023,2023A&A...671A.170C,0.23805,4.0804,0.32320000000000004,4.234993811881187,1,1,0
+901,WASP-107 b,Transmission,Near Infrared Camera (NIRCam),Murphy et al. 2024,2024NatAs...8.1562M,2.475,2.0474,0.0049,-4.22448979591831,3,1,1
+1601,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.13301,6.2104,0.0142,4.218309859154918,7,4,3
+293,WASP-33 b,Eclipse,Wide Field Camera 3,Haynes et al. 2015,2015ApJ...806..146H,1.582,0.0993,0.00919,-4.211099020674648,2,0,0
+1026,TOI-1685 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,Luque et al. 2025,2025AJ....170...49L,3.0615,0.08989,0.003185,4.207221350078491,5,1,0
+536,LHS 475 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,Lustig-Yaeger et al. 2023,2023NatAs...7.1317L,5.15065,0.0287,0.02341,-4.202050405809483,1,0,1
+834,WASP-39 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Carter et al. 2024,2024NatAs...8.1008C,0.76475,2.12968,0.00731,4.198358413132679,7,1,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,1.04215,1.94981,0.01721,4.196978500871587,2,1,0
+1601,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.75234,6.2401,0.014849999999999999,4.195286195286167,7,5,1
+844,HIP 67522 b,Transmission,Near Infrared Spectrograph (NIRSpec),Thao et al. 2024,2024AJ....168..297T,5.171,0.02867,0.03944,-4.1878803245436105,1,0,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,1.6404,1.8313,0.02209,-4.187415119963786,2,0,2
+77,WASP-39 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Feinstein et al. 2023,2023Natur.614..670F,1.12389,2.12172,0.00475,-4.18736842105267,5,0,2
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,0.66716,1.81211,0.0318,-4.186477987421383,4,0,2
+922,L 98-59 b,Transmission,Near Infrared Spectrograph (NIRSpec),Bello-Arufe et al. 2025,2025ApJ...980L..26B,3.255,0.06934,0.00291,4.164948453608247,1,0,0
+353,WASP-107 b,Transmission,Wide Field Camera 3,Spake et al. 2018,2018Natur.557...68S,1.158,2.0814,0.0055,4.16363636363635,3,3,0
+672,TOI-270 d,Transmission,Wide Field Camera 3,Edwards et al. 2023,2023ApJS..269...31E,1.3605,0.30185,0.00469,4.159914712153524,2,1,0
+1056,TOI-270 d,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Felix et al. 2025,2025A&A...701A.296F,2.38604,0.19243,0.0253,-4.159288537549407,0,0,0
+1599,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,0.8122,6.2617,0.0178,-4.151685393258432,7,4,0
+766,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Welbanks et al. 2024,2024Natur.630..836W,7.017,2.0536,0.0073,-4.136986301369894,3,3,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,0.65859,2.04635,0.03367,4.125037125037124,4,2,0
+839,TOI-836 c,Transmission,Near Infrared Spectrograph (NIRSpec),Wallack et al. 2024,2024AJ....168...77W,4.915,0.13676,0.00553,4.124773960216998,2,2,0
+1056,TOI-270 d,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Felix et al. 2025,2025A&A...701A.296F,2.37615,0.34513,0.01688,4.1184834123222736,0,0,0
+1599,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,3.49484,6.2909,0.0245,4.118367346938748,7,3,1
+1600,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,2.70261,6.2722,0.0175,4.108571428571395,7,5,1
+259,WASP-18 b,Eclipse,Near Infrared Imager and Slitless Spectrograph (NIRISS),Coulombe et al. 2023,2023Natur.620..292C,1.87253,0.21021,0.01278,4.0962441314554,3,3,0
+578,WASP-96 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Radica et al. 2023,2023MNRAS.524..835R,2.01272,1.56723,0.04753,4.094045865768984,1,0,0
+293,WASP-33 b,Eclipse,Wide Field Camera 3,Haynes et al. 2015,2015ApJ...806..146H,1.163,0.154,0.00953,4.09233997901364,2,0,0
+1761,TOI-260 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,Meech et al. 2026,2026AJ....171..274M,3.21756,0.0859,0.0023,4.086956521739133,5,2,1
+1057,TOI-270 d,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,Felix et al. 2025,2025A&A...701A.296F,3.30618,0.22959,0.0203,-4.085221674876849,6,3,0
+843,HIP 67522 b,Transmission,Near Infrared Spectrograph (NIRSpec),Thao et al. 2024,2024AJ....168..297T,5.1596,0.41815,0.02398,-4.083819849874894,2,1,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,2.28716,1.71532,0.04593,-4.068800348356193,2,0,2
+550,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Dyrek et al. 2024,2024Natur.625...51D,7.47,2.1486,0.0088,4.068181818181824,3,3,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,2.23599,1.74934,0.04203,-4.054246966452537,2,1,0
+241,HD 209458 b,Transmission,Space Telescope Imaging Spectrograph,Sing et al. 2016,2016Natur.529...59S,0.5687,1.50136,0.00686,4.053935860058326,0,0,0
+550,WASP-107 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,Dyrek et al. 2024,2024Natur.625...51D,6.57,2.1045,0.0077,4.051948051948009,3,3,0
+837,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec),Carter et al. 2024,2024NatAs...8.1008C,1.24739,2.11459,0.003885,-4.05148005147996,5,2,0
+536,LHS 475 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,Lustig-Yaeger et al. 2023,2023NatAs...7.1317L,3.31326,0.03239,0.01745,-4.046991404011461,3,1,1
+481,WASP-18 b,Eclipse,Near Infrared Imager and Slitless Spectrograph (NIRISS),Coulombe et al. 2023,2023Natur.620..292C,1.87253,0.20602,0.01294,4.0417310664605886,3,3,0
+1600,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,1.33149,6.1843,0.0084,4.035714285714291,7,4,0
+288,WASP-21 b,Transmission,ACAM,Alderson et al. 2020,2020MNRAS.497.5182A,0.5893,1.19662,0.028225,4.030823737821078,1,1,0
+803,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Fournier-Tondreau et al. 2024,2024MNRAS.528.3354F,1.7061,1.78011,0.02449,-4.02899142507145,2,1,1
+992,WASP-121 b,Transmission,Near Infrared Spectrograph (NIRSpec),Gapp et al. 2025,2025AJ....169..341G,4.1805,1.40555,0.024805,-4.027816972384597,3,1,1
+1605,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,Ca&ntilde;as et al. 2026,2026AJ....171..260C,2.46052,6.3855,0.032549999999999996,4.024577572964677,7,4,1
+837,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec),Carter et al. 2024,2024NatAs...8.1008C,2.82341,2.22181,0.005085,4.013765978367756,5,1,0
+995,WASP-121 b,Transmission,Near Infrared Spectrograph (NIRSpec),Gapp et al. 2025,2025AJ....169..341G,4.20856,1.56385,0.01926,4.0124610591900325,3,0,2
+77,WASP-39 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),Feinstein et al. 2023,2023Natur.614..670F,1.1347,2.15089,0.00437,4.009153318077748,5,2,0
+546,LHS 475 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,Lustig-Yaeger et al. 2023,2023NatAs...7.1317L,3.31269,0.04592,0.0169,-4.004142011834319,3,1,1
