@@ -15,6 +15,7 @@ PC, using only public data.
 |---|---|---|---|
 | 1 | [Epoch variability](studies/01-epoch-variability/) | In pairs of spectra that differ only by observation epoch, 17% disagree beyond their stated errors — all around M-dwarf stars. | `study-01-v1.0` |
 | 2 | [Blind anomaly search](studies/02-blind-anomaly-search/) | A model-free scan of the real archive: it blindly rediscovers known detections (KELT-9 b Balmer lines), known disputes (GJ 1132 b), and known instrument artifacts — plus a ranked catalog of what remains. | `study-02-v1.0` |
+| 3 | [JWST mini-survey](studies/03-jwst-mini-survey/) | 22 JWST/NIRSpec transit visits of 7 planets re-reduced from detector frames with one shared code: 14 of 28 visit pairs (50%) disagree beyond errors, clustered on active M dwarfs; a quiet-star control shows none. | `study-03-v1.0` |
 
 Each study page has four layers: a TL;DR for everyone, a summary for the
 technical reader, an expert section, and the result catalogs with column
@@ -41,6 +42,9 @@ python src/phase5_features.py       # study 2: structure stats + point anomalies
 python src/phase5_cohort.py         # study 2: cohort shape oddballs
 python src/phase5_report.py         # study 2: summary + cross-check vs study 1
 ```
+
+Study 3 works on JWST detector data (~155 GB of downloads) and has its own
+pipeline: see [docs/REPRODUCE.md](docs/REPRODUCE.md), section 6.
 
 Script outputs land in `data/processed/` and `reports/` (both gitignored);
 the committed files under `studies/*/results/` are curated copies of those

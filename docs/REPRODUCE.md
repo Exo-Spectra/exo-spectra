@@ -1,7 +1,8 @@
 # Reproducing the results
 
-Everything runs on a normal PC (no GPU needed; ~1 GB RAM; minutes, not hours).
-Python ≥ 3.11.
+Studies 1–2 run on a normal PC (no GPU needed; ~1 GB RAM; minutes, not hours).
+Study 3 also runs on a normal PC but needs ~155 GB of disk for JWST detector
+data and benefits from ≥16 GB RAM. Python ≥ 3.11.
 
 Note on paths: the scripts write their outputs to `data/processed/` and
 `reports/` (both gitignored). The files committed under `studies/*/results/`
@@ -67,6 +68,23 @@ Outputs: `phase5_features.csv`, `phase5_point_anomalies.csv`,
 spectra. They were used for the GJ 1132 b end-to-end validation in Study 1.
 Expect multi-GB downloads per visit; paths are configured at the top of each
 script.
+
+## 6. Study 3 — JWST mini-survey (large downloads: ~155 GB)
+
+```bash
+python src/mast_survey_scout.py     # find public multi-visit G395H/M hosts (astroquery)
+python src/survey_download.py       # fetch rateints/x1dints for the 5 chosen hosts
+python src/survey_ephem.py          # transit ephemerides from the archive TAP service
+python src/survey_analyze.py        # extraction + visit-pair comparison (all targets)
+```
+
+Requires `astroquery` and `astropy` (in `requirements.txt`). The downloader is
+idempotent (verifies cached files by size) and retries on connection drops;
+expect the MAST transfer to take many hours. `survey_analyze.py` accepts
+target names as arguments to process a subset (e.g.
+`python src/survey_analyze.py TOI-776`). Outputs land in `reports/survey/`;
+the committed files under `studies/03-jwst-mini-survey/results/` are curated
+copies of those outputs.
 
 ## Tools
 

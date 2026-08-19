@@ -73,6 +73,39 @@ k components at 90% explained variance (max 8). Outlier scores:
 Final rank = median of the three score ranks. `amp_snr` = shape amplitude /
 median bin error distinguishes signal-shaped from noise-shaped members.
 
+## JWST detector-frame extraction (Study 3)
+
+Inputs are the public `rateints` (per-integration slope images) and `x1dints`
+(pipeline 1-D spectra, used only for the wavelength solution) files from MAST,
+per visit and detector (NRS1/NRS2), long time series concatenated across
+segments.
+
+1. **Background.** Per column, the median of rows ≥ 10 rows away from the
+   spectral trace is subtracted.
+2. **Aperture.** Box extraction of ±6 rows around the trace.
+3. **Bad pixels.** DQ-flagged pixels are replaced from a median-image template
+   (inserted unscaled) — without this, box extraction is dominated by
+   missing-pixel noise.
+4. **Cleaning and detrending.** 5σ clipping on each band's time series; a
+   linear trend fitted on the out-of-transit baseline is divided out.
+5. **Transit window.** Predicted mid-times from the archive (`pscomppars`) are
+   refined per visit with a matched box filter. In-transit:
+   |t − c| < 0.375·T14; baseline: |t − c| > 0.6·T14; other planets of the same
+   system are masked. Depth per bin = 1 − median(in-transit) / median(baseline)
+   of the detrended band flux; uncertainty propagated from the out-of-transit
+   scatter (white noise only).
+6. **Binning and quality.** 22 wavelength bins per detector; bins with errors
+   above max(200 ppm, 3× the visit's median bin error) dropped (box extraction
+   degrades at the red end).
+
+Practical notes: the detector-cutout x-offset needed to place the wavelength
+solution is only available in the calibration-pipeline log inside the ASDF
+extension ("Subarray x-extents"); and `INT_TIMES.int_mid_BJD_TDB` is
+BJD_TDB − 2400000.5 while the archive publishes full JD.
+
+Visit pairs of the same planet are then compared exactly as in Study 1
+(offset model, offset+slope model, BH-FDR at 1%).
+
 ## Point anomalies and hotspots (Study 2, Tier C)
 
 Points with |z| > 4 against their spectrum's running local median enter the

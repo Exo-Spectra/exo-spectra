@@ -4,3 +4,4 @@ pandas>=2.2
 astropy>=7.0
 matplotlib>=3.9
 requests>=2.32
+astroquery>=0.4.7    # study 3 only (MAST queries and downloads)
