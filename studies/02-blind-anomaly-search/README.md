@@ -1,15 +1,15 @@
 # Study 2 — A blind, model-free anomaly search over the real archive
 
-*Unsupervised anomaly detection applied, for the first time, to the real
-(not simulated) archive of published exoplanet spectra.*
+*Unsupervised anomaly detection applied — to our knowledge for the first
+time — to the real (not simulated) archive of published exoplanet spectra.*
 
 ## TL;DR (for everyone)
 
-We used a computer to find unusual features in 1826 published exoplanet spectra. We did not tell the computer what "strange" meant, and we did not include any physics or chemistry. The computer only looked at numbers and error bars. This blind search found three things: a famous real detection (hydrogen glowing in the ultra-hot planet KELT-9 b), a known instrument artifact (light from a background star leaking into a JWST detector), and the same disputed spectrum that Study 1 found using a different method. The other results are a ranked list of oddities for humans to check.
+We used a computer to find unusual features in 1826 published exoplanet spectra. We did not tell the computer what "strange" meant, and we did not include any physics or chemistry. The computer only looked at numbers and error bars. This blind search found three things: a famous real detection (hydrogen absorbing starlight in the ultra-hot planet KELT-9 b), a known instrument artifact (light from a background star leaking into a JWST detector), and the same disputed spectrum that Study 1 found using a different method. The other results are a ranked list of oddities for humans to check.
 
 ## Summary (for the technical reader)
 
-Methods to find anomalies in exoplanet spectra exist in the literature (Matchev et al. 2022; "Hunting for Oddballs", 2026). However, those methods only worked on large sets of simulated spectra. Real archives are more complex because every instrument has different wavelength grids, resolutions, and error behaviors. We used a three-tier design to handle this:
+Methods to find anomalies in exoplanet spectra exist in the literature (Matchev et al. 2022; "Hunting for Oddballs", arXiv:2601.02324, 2026). However, those methods were only applied to large sets of simulated spectra. Real archives are more complex because every instrument has different wavelength grids, resolutions, and error behaviors. We used a three-tier design to handle this:
 
 - **Tier A — per-spectrum structure.** We tested each of the 741 spectra (≥5 usable points) against three model-free baselines: a constant, a straight line, and a smooth polynomial. **47% of transmission spectra and 66% of eclipse spectra show significant structure** beyond their error bars (FDR 1%). These are mostly real molecular features and serve as the baseline for other tiers. Sanity checks passed: WASP-39 b (deep JWST features) shows strong structure; the flat GJ 1214 b spectrum of Kreidberg et al. 2014 does not (chi2_red 1.02), while the disputed ground-based claims of structure for the same planet are flagged.
 - **Tier B — shape oddballs.** We grouped 435 spectra into 7 homogeneous instrument cohorts. We normalized each spectrum to a pure shape and scored it with three outlier measures (PCA reconstruction error, robust Mahalanobis distance, k-nearest-neighbor distance). The top oddball in the Hubble WFC3 cohort is GJ 1132 b, Swain et al. 2021. This is the spectrum at the center of a published dispute about whether an atmosphere exists. Our independent method found it.
@@ -40,7 +40,7 @@ is mostly noise.
 **Tier C spot checks (top 3 by |z|):** (1) KELT-9 b at 0.656 and 0.486 µm,
 z = 97 and 68 — the Balmer lines H-alpha and H-beta; the blind scan
 rediscovered the published detection of hydrogen absorption (Cauley et al.
-2019). (2) WASP-17 b at 2.05–2.07 µm, z = −25 — consistent with the
+2019). (2) WASP-17 b at 2.06 µm, z = −25 — consistent with the
 zeroth-order background-star contamination that the JWST-TST DREAMS program
 itself reports as the dominant systematic for this target. (3) WASP-43 b at
 5.25 µm — the blue edge of MIRI LRS, repeating across all spectra of the same

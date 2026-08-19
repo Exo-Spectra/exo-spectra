@@ -36,9 +36,15 @@ pip install -r requirements.txt
 python src/download_spectra.py      # fetch all 1826 spectra (~112 MB) from the archive
 python src/build_summary.py         # parse and index them
 python src/phase3_full_archive.py   # study 1: pair statistics
+python src/phase4_classify.py       # study 1: pair provenance classes (gold sample)
 python src/phase5_features.py       # study 2: structure stats + point anomalies
 python src/phase5_cohort.py         # study 2: cohort shape oddballs
+python src/phase5_report.py         # study 2: summary + cross-check vs study 1
 ```
+
+Script outputs land in `data/processed/` and `reports/` (both gitignored);
+the committed files under `studies/*/results/` are curated copies of those
+outputs.
 
 ## License and citation
 

@@ -1,0 +1,12 @@
+Data products license
+
+The result catalogs (CSV files under studies/*/results/ and data/) and the
+report figures in this repository are released under the Creative Commons
+Attribution 4.0 International license (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+If you use them, please cite this repository (see CITATION.cff).
+
+The underlying spectra are published data from the NASA Exoplanet Archive
+(Atmospheric Spectroscopy table) and are credited to their original authors;
+see the bibcode column in the catalogs.

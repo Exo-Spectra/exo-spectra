@@ -3,6 +3,10 @@
 Everything runs on a normal PC (no GPU needed; ~1 GB RAM; minutes, not hours).
 Python ≥ 3.11.
 
+Note on paths: the scripts write their outputs to `data/processed/` and
+`reports/` (both gitignored). The files committed under `studies/*/results/`
+and `data/spectra_summary.csv` are curated copies of exactly those outputs.
+
 ```bash
 pip install -r requirements.txt
 ```

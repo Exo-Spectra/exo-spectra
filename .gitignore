@@ -1,5 +1,7 @@
 data/spectra/
 data/raw/
+data/processed/
+reports/
 data/jwst_raw/
 data/jwst_reduced/
 __pycache__/

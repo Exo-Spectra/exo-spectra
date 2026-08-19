@@ -6,6 +6,8 @@ authors:
     given-names: "Mateusz"
 repository-code: "https://github.com/Exo-Spectra/exo-spectra"
 license: MIT
+version: 1.0.0
+date-released: 2026-08-19
 keywords:
   - exoplanets
   - transmission spectroscopy
