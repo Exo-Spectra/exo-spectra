@@ -2,7 +2,8 @@
 
 Studies 1–2 run on a normal PC (no GPU needed; ~1 GB RAM; minutes, not hours).
 Study 3 also runs on a normal PC but needs ~155 GB of disk for JWST detector
-data and benefits from ≥16 GB RAM. Python ≥ 3.11.
+data and benefits from ≥16 GB RAM. Study 4 needs the retrieval codes and
+their opacity data (section 7) and ~1–2 days of CPU time. Python ≥ 3.11.
 
 Note on paths: the scripts write their outputs to `data/processed/` and
 `reports/` (both gitignored). The files committed under `studies/*/results/`
@@ -85,6 +86,37 @@ target names as arguments to process a subset (e.g.
 `python src/survey_analyze.py TOI-776`). Outputs land in `reports/survey/`;
 the committed files under `studies/03-jwst-mini-survey/results/` are curated
 copies of those outputs.
+
+## 7. Study 4 — L 98-59 b SO₂ verification matrix
+
+Extra dependencies (not in `requirements.txt`, study 4 only):
+
+```bash
+pip install taurex==3.3.2 platon==5.4 dynesty==3.1.0
+```
+
+Opacity data: TauREx needs ExoMol R = 15 000 cross-sections in TauREx HDF5
+format for SO₂ (ExoAmes) and CO₂ (UCL-4000), placed in
+`data/opacities/taurex_ready/` (download from exomol.com, "Cross sections
+(TauREx)"; ~365 MB each). PLATON downloads its own opacity package on first
+use.
+
+Inputs: the Study 3 extraction must exist for L 98-59 (`reports/survey/`),
+plus the two published spectra from the archive download (step 1).
+
+```bash
+python src/l9859b_prepare.py            # unify the 9 spectrum variants
+python src/l9859b_retrieval.py --code taurex   # 27 retrievals (~1 day CPU)
+python src/l9859b_retrieval.py --code platon   # 27 retrievals (~1 day CPU)
+python src/l9859b_report.py             # sigma matrix + heatmap + fit plots
+```
+
+The retrieval script is idempotent (finished cells are skipped on restart;
+`--max-runs N` limits a batch — useful for running in fresh processes) and
+the sampler is seeded, so results are deterministic for the pinned package
+versions. Outputs land in
+`reports/l9859b_verification/`; the committed files under
+`studies/04-l9859b-so2-verification/results/` are curated copies.
 
 ## Tools
 

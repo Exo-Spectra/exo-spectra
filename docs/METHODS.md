@@ -1,7 +1,10 @@
 # Methods
 
-All statistics are model-free: no atmospheric models, no assumed chemistry.
-Inputs are the published data points and their quoted uncertainties.
+The statistics of Studies 1–3 are model-free: no atmospheric models, no
+assumed chemistry. Inputs are the published data points and their quoted
+uncertainties. Study 4 is the exception by design: a targeted verification
+that uses Bayesian model comparison with atmospheric forward models
+(last section).
 
 ## Data
 
@@ -105,6 +108,35 @@ BJD_TDB − 2400000.5 while the archive publishes full JD.
 
 Visit pairs of the same planet are then compared exactly as in Study 1
 (offset model, offset+slope model, BH-FDR at 1%).
+
+## Bayesian model comparison (Study 4)
+
+A verification matrix for one published detection claim: every spectrum
+variant × every atmosphere model × two independent retrieval codes, with
+identical data, priors and sampler settings.
+
+1. **Models** (isothermal, well-mixed): `flat` — one parameter, a constant
+   transit depth; single-gas models — three parameters (planet radius,
+   temperature, log surface pressure; uniform priors), 99.9% of the tested
+   gas + 0.1% N₂, absorption + Rayleigh scattering, no clouds. System
+   parameters (stellar radius and temperature, planet mass) are fixed at the
+   published values. The setup deliberately mirrors the model comparison of
+   the paper under test rather than adding physics.
+2. **Codes.** TauREx 3 (ExoMol R = 15 000 cross-sections) and PLATON 5.4
+   (native opacity grid, per-gas mixtures via `custom_abundances`). Forward
+   models are averaged over each data point's bandpass — the same matching
+   rule as the Study 1 pair statistic.
+3. **Evidence.** Static nested sampling (dynesty), fixed live-point count and
+   random seed — every cell deterministic. Model preference is
+   ln Bayes factor vs `flat`, mapped to n-sigma via Benneke & Seager (2013).
+4. **Controls.** A flat synthetic spectrum with the real error bars (the
+   codes must not detect a molecule on it), and the `flat`-model lnZ — which
+   is independent of the radiative-transfer code — must agree between codes
+   for every spectrum (it does, to better than 1e-10).
+5. **Error-inflation axis.** Where multiple visits of the same planet are
+   averaged, a second variant inflates each bin's error by √max(1, χ²_red)
+   of the visit-to-visit scatter — propagating measured epoch inconsistency
+   into the averaged error bars.
 
 ## Point anomalies and hotspots (Study 2, Tier C)
 
