@@ -3,7 +3,9 @@
 Studies 1–2 run on a normal PC (no GPU needed; ~1 GB RAM; minutes, not hours).
 Study 3 also runs on a normal PC but needs ~155 GB of disk for JWST detector
 data and benefits from ≥16 GB RAM. Study 4 needs the retrieval codes and
-their opacity data (section 7) and ~1–2 days of CPU time. Python ≥ 3.11.
+their opacity data (section 7) and ~1–2 days of CPU time. Study 5 reuses the
+Study 3 downloads — or, for its statistics, just the light curves committed
+in this repository (section 8). Python ≥ 3.11.
 
 Note on paths: the scripts write their outputs to `data/processed/` and
 `reports/` (both gitignored). The files committed under `studies/*/results/`
@@ -117,6 +119,31 @@ the sampler is seeded, so results are deterministic for the pinned package
 versions. Outputs land in
 `reports/l9859b_verification/`; the committed files under
 `studies/04-l9859b-so2-verification/results/` are curated copies.
+
+## 8. Study 5 — limb asymmetry in white-light transits
+
+Extra dependency (escalation stage only): `pip install emcee`.
+
+The full chain needs the Study 3 JWST downloads (section 6, ~155 GB — plus
+the two GJ 1132 b visits of program 1981 via `src/jwst_whitelight.py` paths)
+and the ephemerides from `src/survey_ephem.py`:
+
+```bash
+python src/limb_asym_run.py        # stage 2: catalog + per-fit diagnostics
+python src/limb_asym_inject.py     # stage 3a: injection-recovery calibration
+python src/limb_asym_mcmc.py       # stage 3b: emcee escalation of >2 sigma rows
+python src/limb_asym_report.py     # FDR verdict, per-planet table, summary
+```
+
+Shortcut without the downloads: the 33 white-light curves are committed under
+`studies/05-limb-asymmetry/results/lightcurves/`. Copy them together with
+`limb_asym_catalog.csv` into `reports/limb_asymmetry/`, then run
+`python src/survey_ephem.py` once — a network-only Exoplanet Archive query
+that writes the `data/processed/survey_ephemerides.csv` the injection and
+MCMC stages read. After that the injection, MCMC and report stages run as-is
+(only `limb_asym_run.py` needs the raw frames). Outputs land in
+`reports/limb_asymmetry/`; the committed files under
+`studies/05-limb-asymmetry/results/` are curated copies.
 
 ## Tools
 

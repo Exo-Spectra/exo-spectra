@@ -138,6 +138,39 @@ identical data, priors and sampler settings.
    of the visit-to-visit scatter — propagating measured epoch inconsistency
    into the averaged error bars.
 
+## White-light limb-asymmetry test (Study 5)
+
+An asymmetric transit fit on the white-light curves of Studies 1 and 3: is
+the planet's apparent size different during ingress and egress?
+
+1. **Model.** Pure-numpy quadratic-limb-darkening transit (radial quadrature
+   over the covered annulus, validated to < 10 ppm against pytransit), times a
+   multiplicative ramp (linear / quadratic / quadratic × settling exponential,
+   chosen by BIC on the symmetric fit). Keplerian orbit with e, ω fixed at
+   archive values, so an eccentric orbit's genuine ingress/egress *duration*
+   asymmetry cannot leak into the fitted radius asymmetry. Limb darkening free
+   in the Kipping q1/q2 parametrization; Gaussian priors on a/R* and b from
+   the archive; t0 free.
+2. **Statistic.** Refit with independent ingress/egress radii split at the
+   fitted t0; dd = (k_eg² − k_in²) × 10⁶ [ppm]. Only transits fully inside the
+   visit (both contacts + a margin of max(0.3 · T14, floor)) are fit.
+3. **Errors.** Calibrated by injection-recovery: asymmetric transits at 9
+   known dd amplitudes × 10 realizations built from the visit's own cyclically
+   shifted residuals (red noise preserved), refit; sigma_cal = scatter of
+   recovered dd at zero injection. The cyclic-shift bootstrap agrees with
+   sigma_cal (median ratio 0.91); the binned-RMS beta inflation on top of it
+   double-counts red noise (median 0.59) and is kept only as the conservative
+   variant. Recovery is unbiased (median response slope 1.00).
+4. **Escalation.** Every fit above 2σ gets an emcee posterior with a free
+   white-noise jitter (ramp coefficients recovered from the persisted
+   noiseless ramp with a multi-start over the settling timescale — the
+   timescale is partially degenerate with the ingress depth).
+5. **Verdict.** Two-sided p-values from dd/sigma_cal, BH-FDR at 1% across all
+   fits; per-planet inverse-variance weighted means with a visit-to-visit
+   consistency chi-squared; NRS1-vs-NRS2 agreement per visit (a physical
+   asymmetry must be identical on both detectors). Upper limit per fit:
+   |dd| + 1.645 sigma_cal.
+
 ## Point anomalies and hotspots (Study 2, Tier C)
 
 Points with |z| > 4 against their spectrum's running local median enter the

@@ -17,6 +17,7 @@ PC, using only public data.
 | 2 | [Blind anomaly search](studies/02-blind-anomaly-search/) | A model-free scan of the real archive: it blindly rediscovers known detections (KELT-9 b Balmer lines), known disputes (GJ 1132 b), and known instrument artifacts — plus a ranked catalog of what remains. | `study-02-v1.0` |
 | 3 | [JWST mini-survey](studies/03-jwst-mini-survey/) | 22 JWST/NIRSpec transit visits of 7 planets re-reduced from detector frames with one shared code: 14 of 28 visit pairs (50%) disagree beyond errors, clustered on active M dwarfs; a quiet-star control shows none. | `study-03-v1.0` |
 | 4 | [L 98-59 b SO₂ verification](studies/04-l9859b-so2-verification/) | The reported ~3σ SO₂ detection re-tested with 54 retrievals (9 spectrum variants × 3 models × 2 codes): it does not survive a change of reduction pipeline, and in our own re-extraction it is largely driven by one anomalous visit. The two retrieval codes agree — the data, not the software, decide. | `study-04-v1.0` |
+| 5 | [Limb asymmetry](studies/05-limb-asymmetry/) | A separate ingress/egress depth fitted to 33 JWST white-light transit light curves of 7 M-dwarf planets: zero significant morning/evening asymmetries; injection-calibrated errors give the first uniform upper-limit table for this sample (median 95% limit 246 ppm). | `study-05-v1.0` |
 
 Each study page has four layers: a TL;DR for everyone, a summary for the
 technical reader, an expert section, and the result catalogs with column
@@ -47,7 +48,9 @@ python src/phase5_report.py         # study 2: summary + cross-check vs study 1
 Study 3 works on JWST detector data (~155 GB of downloads) and has its own
 pipeline: see [docs/REPRODUCE.md](docs/REPRODUCE.md), section 6. Study 4 runs
 Bayesian retrievals (TauREx + PLATON) on the Study 3 spectra of L 98-59 b:
-see section 7 (~1–2 days of CPU time).
+see section 7 (~1–2 days of CPU time). Study 5 fits asymmetric transits to
+the white-light curves of Studies 1 and 3: see section 8 (the committed
+light curves let you re-run its statistics without the JWST downloads).
 
 Script outputs land in `data/processed/` and `reports/` (both gitignored);
 the committed files under `studies/*/results/` are curated copies of those
