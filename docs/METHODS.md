@@ -171,6 +171,23 @@ the planet's apparent size different during ingress and egress?
    asymmetry must be identical on both detectors). Upper limit per fit:
    |dd| + 1.645 sigma_cal.
 
+## Transit timing and blind dip search (Study 6)
+
+Two by-products harvested from the Study 3 white-light curves (NRS1 only):
+
+1. **Timing.** For every known-planet transit predicted inside a visit
+   (NASA Exoplanet Archive default ephemeris via `src/survey_ephem.py`),
+   the mid-time is refined with the Study 3 matched filter; O−C =
+   observed − predicted, positive = late. No formal per-time error — the
+   per-planet visit-to-visit scatter (0.5–4.1 min) is the empirical
+   precision.
+2. **Dip search.** Outside the gap-padded known windows the baseline is
+   quadratically detrended and box-scanned (0.5/1/2 h, half-width/2 steps);
+   depth = median(out) − median(in), error from baseline scatter scaled by
+   the in/out counts; SNR ≥ 5 events kept, strongest per overlapping
+   cluster. Sensitive to single-visit hour-scale transits of roughly
+   ≳ 150–250 ppm; blind to orbital period by construction.
+
 ## Point anomalies and hotspots (Study 2, Tier C)
 
 Points with |z| > 4 against their spectrum's running local median enter the

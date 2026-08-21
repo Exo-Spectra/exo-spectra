@@ -6,7 +6,7 @@ authors:
     given-names: "Mateusz"
 repository-code: "https://github.com/Exo-Spectra/exo-spectra"
 license: MIT
-version: 1.2.0
+version: 1.3.0
 date-released: 2026-08-21
 keywords:
   - exoplanets
@@ -26,7 +26,10 @@ abstract: >
   frames with one shared extraction code, testing visit-to-visit consistency
   independently of published reductions, (4) an independent verification
   of the reported SO2 detection on L 98-59 b with a 54-run matrix of Bayesian
-  retrievals (two codes, three models, nine spectrum variants), and (5) a
+  retrievals (two codes, three models, nine spectrum variants), (5) a
   search for ingress/egress (limb) asymmetry in 33 JWST white-light transit
   light curves of 7 M-dwarf planets with injection-calibrated errors: a null
-  result with a uniform upper-limit catalog.
+  result with a uniform upper-limit catalog, and (6) a transit-timing check
+  and blind dip search across the 22 JWST visits: 22 fresh mid-transit times
+  (the K2-18 b archive ephemeris runs ~51 minutes late) and zero credible
+  new transit candidates.

@@ -145,6 +145,19 @@ MCMC stages read. After that the injection, MCMC and report stages run as-is
 `reports/limb_asymmetry/`; the committed files under
 `studies/05-limb-asymmetry/results/` are curated copies.
 
+## 9. Study 6 — transit timing and blind dip search
+
+Needs the Study 3 downloads (section 6) and the ephemerides from
+`src/survey_ephem.py`; no extra dependencies:
+
+```bash
+python src/survey_planet_hunt.py            # all survey targets
+python src/survey_planet_hunt.py K2-18      # or a subset
+```
+
+Outputs land in `reports/planet_hunt/`; the committed files under
+`studies/06-transit-timing/results/` are curated copies.
+
 ## Tools
 
 `tools/plain_english.py` — the plain-English documentation pass used for this

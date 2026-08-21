@@ -18,6 +18,7 @@ PC, using only public data.
 | 3 | [JWST mini-survey](studies/03-jwst-mini-survey/) | 22 JWST/NIRSpec transit visits of 7 planets re-reduced from detector frames with one shared code: 14 of 28 visit pairs (50%) disagree beyond errors, clustered on active M dwarfs; a quiet-star control shows none. | `study-03-v1.0` |
 | 4 | [L 98-59 b SO₂ verification](studies/04-l9859b-so2-verification/) | The reported ~3σ SO₂ detection re-tested with 54 retrievals (9 spectrum variants × 3 models × 2 codes): it does not survive a change of reduction pipeline, and in our own re-extraction it is largely driven by one anomalous visit. The two retrieval codes agree — the data, not the software, decide. | `study-04-v1.0` |
 | 5 | [Limb asymmetry](studies/05-limb-asymmetry/) | A separate ingress/egress depth fitted to 33 JWST white-light transit light curves of 7 M-dwarf planets: zero significant morning/evening asymmetries; injection-calibrated errors give the first uniform upper-limit table for this sample (median 95% limit 246 ppm). | `study-05-v1.0` |
+| 6 | [Transit timing & planet hunt](studies/06-transit-timing/) | A by-product sweep of the 22 re-reduced JWST visits: 22 fresh mid-transit times for 7 planets (K2-18 b runs ~51 min late on the archive ephemeris, TOI-776 b/c 12–16 min) and a blind SNR ≥ 5 dip search that finds zero credible new planets. | `study-06-v1.0` |
 
 Each study page has four layers: a TL;DR for everyone, a summary for the
 technical reader, an expert section, and the result catalogs with column
