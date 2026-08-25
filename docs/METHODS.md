@@ -171,6 +171,36 @@ the planet's apparent size different during ingress and egress?
    asymmetry must be identical on both detectors). Upper limit per fit:
    |dd| + 1.645 sigma_cal.
 
+## Chromatic limb-asymmetry test (Study 7)
+
+The Study 5 fit repeated per wavelength bin: does the ingress/egress depth
+difference depend on color, in particular molecular bands vs continuum?
+
+1. **Bins.** 8 uniform wavelength bins per detector from the Study 3
+   per-column photometry; per bin 3×5σ clip, median normalization,
+   per-segment OOT renormalization (Study 5 machinery, OOT from its
+   catalog).
+2. **Divide-white.** Each bin curve is divided by the common mode
+   cm = white_flux × white_ramp / white_sym_model, so the measured per-bin
+   dd is the chromatic CONTRAST relative to the band average (which
+   Study 5 showed to be null); a gray asymmetry is invisible by
+   construction.
+3. **Fit.** The Study 5 asymmetric model with geometry and limb darkening
+   pinned to the white solution by tight priors; per-bin baseline by BIC
+   over linear/quad/quad_exp (the restricted menu biased dd by up to
+   1.4 sigma in exactly the interesting bins — the Study 5
+   settling-exponential degeneracy).
+4. **Errors.** Injection-recovery per bin (asymmetries at ±1–3× the
+   bootstrap error + 12 zero-amplitude realizations on cyclically shifted
+   real residuals); all significances on sigma_cal. Red-end bins with
+   bootstrap error ≥ 500 ppm excluded.
+5. **Verification.** Free-LD refit and full-ramp refit of every candidate
+   band bin; emcee posterior for every bin above 2σ.
+6. **Verdict.** BH-FDR 1% at four levels: per bin, dd(λ)-structure per
+   fit, per-planet stacked bins, and molecular-band-vs-continuum contrasts
+   (CH₄/CO₂/CO); repeatability across visits and detectors required of any
+   passer.
+
 ## Transit timing and blind dip search (Study 6)
 
 Two by-products harvested from the Study 3 white-light curves (NRS1 only):

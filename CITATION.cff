@@ -6,8 +6,8 @@ authors:
     given-names: "Mateusz"
 repository-code: "https://github.com/Exo-Spectra/exo-spectra"
 license: MIT
-version: 1.3.0
-date-released: 2026-08-21
+version: 1.4.0
+date-released: 2026-08-25
 keywords:
   - exoplanets
   - transmission spectroscopy
@@ -29,7 +29,10 @@ abstract: >
   retrievals (two codes, three models, nine spectrum variants), (5) a
   search for ingress/egress (limb) asymmetry in 33 JWST white-light transit
   light curves of 7 M-dwarf planets with injection-calibrated errors: a null
-  result with a uniform upper-limit catalog, and (6) a transit-timing check
+  result with a uniform upper-limit catalog, (6) a transit-timing check
   and blind dip search across the 22 JWST visits: 22 fresh mid-transit times
   (the K2-18 b archive ephemeris runs ~51 minutes late) and zero credible
-  new transit candidates.
+  new transit candidates, and (7) a chromatic limb-asymmetry search in 8
+  wavelength bins per detector with injection-calibrated errors: no
+  band-vs-continuum contrast at FDR 1%, two ~3.3 sigma follow-up candidates,
+  and the first per-band upper-limit catalog for this sample.

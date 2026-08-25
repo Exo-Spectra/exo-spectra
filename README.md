@@ -19,6 +19,7 @@ PC, using only public data.
 | 4 | [L 98-59 b SO₂ verification](studies/04-l9859b-so2-verification/) | The reported ~3σ SO₂ detection re-tested with 54 retrievals (9 spectrum variants × 3 models × 2 codes): it does not survive a change of reduction pipeline, and in our own re-extraction it is largely driven by one anomalous visit. The two retrieval codes agree — the data, not the software, decide. | `study-04-v1.0` |
 | 5 | [Limb asymmetry](studies/05-limb-asymmetry/) | A separate ingress/egress depth fitted to 33 JWST white-light transit light curves of 7 M-dwarf planets: zero significant morning/evening asymmetries; injection-calibrated errors give the first uniform upper-limit table for this sample (median 95% limit 246 ppm). | `study-05-v1.0` |
 | 6 | [Transit timing & planet hunt](studies/06-transit-timing/) | A by-product sweep of the 22 re-reduced JWST visits: 22 fresh mid-transit times for 7 planets (K2-18 b runs ~51 min late on the archive ephemeris, TOI-776 b/c 12–16 min) and a blind SNR ≥ 5 dip search that finds zero credible new planets. | `study-06-v1.0` |
+| 7 | [Chromatic limb asymmetry](studies/07-chromatic-limb-asymmetry/) | The Study 5 transits re-fitted in 8 wavelength bins per detector: no molecular-band-vs-continuum asymmetry contrast passes FDR 1%; two ~3.3σ follow-up candidates (GJ 1132 b CH₄, TOI-776 c CO) survive every systematic test; first per-band upper-limit catalog for small M-dwarf planets (median 95% limit 170 ppm). | `study-07-v1.0` |
 
 Each study page has four layers: a TL;DR for everyone, a summary for the
 technical reader, an expert section, and the result catalogs with column
@@ -52,6 +53,9 @@ Bayesian retrievals (TauREx + PLATON) on the Study 3 spectra of L 98-59 b:
 see section 7 (~1–2 days of CPU time). Study 5 fits asymmetric transits to
 the white-light curves of Studies 1 and 3: see section 8 (the committed
 light curves let you re-run its statistics without the JWST downloads).
+Study 7 repeats the Study 5 fit per wavelength bin: see section 10 (its
+committed bin curves plus Study 5's white curves reproduce every fit, again
+without the downloads).
 
 Script outputs land in `data/processed/` and `reports/` (both gitignored);
 the committed files under `studies/*/results/` are curated copies of those

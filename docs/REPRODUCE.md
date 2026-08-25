@@ -158,6 +158,41 @@ python src/survey_planet_hunt.py K2-18      # or a subset
 Outputs land in `reports/planet_hunt/`; the committed files under
 `studies/06-transit-timing/results/` are curated copies.
 
+## 10. Study 7 — chromatic limb asymmetry
+
+Dependencies as for Study 5 (`emcee` for the escalation stage). The full
+chain needs the Study 3 downloads and ephemerides plus the Study 5 outputs
+(its catalog and light curves in `reports/limb_asymmetry/`):
+
+```bash
+python src/limb_chrom_extract.py   # stage 1: 8-bin light curves per visit
+python src/limb_chrom_fit.py       # stage 2: divide-white asymmetric fits
+python src/limb_chrom_inject.py    # stage 3a: injection-recovery per bin
+python src/limb_chrom_report.py    # stage 3b: FDR, stacks, band contrasts
+python src/limb_chrom_mcmc.py      # stage 3c: emcee escalation of >2 sigma bins
+python src/limb_chrom_ldtest.py "GJ 1132 b" "TOI-776 c" "LHS 1140 b"
+```
+
+Two notes on the sensitivity files. Without arguments `limb_chrom_ldtest.py`
+defaults to the planets whose band contrasts pass FDR — in the released
+catalog that set is empty, so pass the three first-pass-flagged planets
+explicitly (above) to reproduce `ld_sensitivity.csv`. And
+`ramp_sensitivity.csv` is a historical artifact: it documents how dd moved
+when the ORIGINAL stage 2 (baseline restricted to linear/quad) was widened
+to the full ramp menu; the released `limb_chrom_fit.py` already uses the
+full menu, so re-running the test against it yields near-zero shifts by
+construction.
+
+Shortcut without the downloads: copy `limb_asym_catalog.csv` and the
+`lightcurves/` directory from `studies/05-limb-asymmetry/results/` into
+`reports/limb_asymmetry/` (keeping `lightcurves/` as a subdirectory), and
+`bins_index.csv` plus the `lightcurves/` directory from
+`studies/07-chromatic-limb-asymmetry/results/` into `reports/limb_chrom/`
+(again as a subdirectory); run `python src/survey_ephem.py` once
+(network-only), and every stage from `limb_chrom_fit.py` on runs as-is.
+Outputs land in `reports/limb_chrom/`; the committed files under
+`studies/07-chromatic-limb-asymmetry/results/` are curated copies.
+
 ## Tools
 
 `tools/plain_english.py` — the plain-English documentation pass used for this

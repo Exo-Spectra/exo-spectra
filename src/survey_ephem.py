@@ -14,6 +14,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "processed" / "survey_ephemerides.csv"
+OUT.parent.mkdir(parents=True, exist_ok=True)   # fresh clones lack data/processed
 
 # MAST target_name -> archive hostname
 HOSTS = {

@@ -28,7 +28,9 @@ PROMPT = """Rewrite the following Markdown document in plain, simple English \
 (CEFR B2 level): short sentences, common words, active voice, no hype and no \
 filler. STRICT rules:
 - Keep ALL numbers, units, wavelengths, statistical values and percentages \
-exactly as they are. Do not round, drop, or add any number.
+exactly as they are. Do not round, drop, or add any number. Write every \
+number in DIGITS, never as a word (keep "5 of 239", never "five of 239"); \
+never merge, split or retype digit sequences (776 stays 776).
 - Keep all object names (planets, instruments, telescopes), author names, \
 technical terms, links, and Markdown structure (headings, tables, lists) unchanged.
 - Do not add new claims or explanations that are not in the text.
