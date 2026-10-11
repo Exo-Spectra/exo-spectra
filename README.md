@@ -1,5 +1,7 @@
 # exo-spectra
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23080130.svg)](https://doi.org/10.5281/zenodo.23080130)
+
 **Homogeneous statistics on every published exoplanet spectrum.**
 
 The NASA Exoplanet Archive collects the published spectra of exoplanet
@@ -20,6 +22,7 @@ PC, using only public data.
 | 5 | [Limb asymmetry](studies/05-limb-asymmetry/) | A separate ingress/egress depth fitted to 33 JWST white-light transit light curves of 7 M-dwarf planets: zero significant morning/evening asymmetries; injection-calibrated errors give the first uniform upper-limit table for this sample (median 95% limit 246 ppm). | `study-05-v1.0` |
 | 6 | [Transit timing & planet hunt](studies/06-transit-timing/) | A by-product sweep of the 22 re-reduced JWST visits: 22 fresh mid-transit times for 7 planets (K2-18 b runs ~51 min late on the archive ephemeris, TOI-776 b/c 12–16 min) and a blind SNR ≥ 5 dip search that finds zero credible new planets. | `study-06-v1.0` |
 | 7 | [Chromatic limb asymmetry](studies/07-chromatic-limb-asymmetry/) | The Study 5 transits re-fitted in 8 wavelength bins per detector: no molecular-band-vs-continuum asymmetry contrast passes FDR 1%; two ~3.3σ follow-up candidates (GJ 1132 b CH₄, TOI-776 c CO) survive every systematic test; first per-band upper-limit catalog for small M-dwarf planets (median 95% limit 170 ppm). | `study-07-v1.0` |
+| 8 | [Retrieval robustness](studies/08-retrieval-robustness/) | 144 nested-sampling retrievals on 9 controlled spectrum pairs (reduction / epoch / pipeline / instrument axes) in two codes: swapping only the reduction of the same HST data erases a capped-7σ H₂O detection to 0.0σ (GJ 1132 b); honest epoch-error inflation zeroes every marginal K2-18 b CH₄ cell; strong detections survive all swaps. | `study-08-v1.0` |
 
 Each study page has four layers: a TL;DR for everyone, a summary for the
 technical reader, an expert section, and the result catalogs with column
@@ -61,10 +64,20 @@ Script outputs land in `data/processed/` and `reports/` (both gitignored);
 the committed files under `studies/*/results/` are curated copies of those
 outputs.
 
+Study 8 compares retrievals across controlled spectrum pairs using the
+Study 4 framework: see [docs/REPRODUCE.md](docs/REPRODUCE.md) (the shipped
+`studies/08-retrieval-robustness/results/pairs.csv` lists every input
+spectrum; the full matrix is ~weeks of CPU time).
+
 ## License and citation
 
-Code: MIT. Result catalogs and figures: CC BY 4.0. To cite, see
-[CITATION.cff](CITATION.cff).
+Code: MIT. Result catalogs and figures: CC BY 4.0.
+
+**How to cite:** use the concept DOI
+[10.5281/zenodo.23080130](https://doi.org/10.5281/zenodo.23080130) (always
+resolves to the latest release) or the per-study version DOIs listed on
+[Zenodo](https://doi.org/10.5281/zenodo.23080130); author and title
+metadata are in [CITATION.cff](CITATION.cff).
 
 ## Acknowledgments
 

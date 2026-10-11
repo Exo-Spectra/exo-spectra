@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+﻿cff-version: 1.2.0
 message: "If you use this code or the result catalogs, please cite this repository."
 title: "exo-spectra: homogeneous consistency and anomaly catalogs for published exoplanet spectra"
 authors:
@@ -6,8 +6,8 @@ authors:
     given-names: "Mateusz"
 repository-code: "https://github.com/Exo-Spectra/exo-spectra"
 license: MIT
-version: 1.4.0
-date-released: 2026-08-25
+version: 1.5.0
+date-released: 2026-10-11
 keywords:
   - exoplanets
   - transmission spectroscopy

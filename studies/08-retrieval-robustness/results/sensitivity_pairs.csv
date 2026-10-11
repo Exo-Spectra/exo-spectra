@@ -1,0 +1,59 @@
+pair,planet,axis,code,model,err_variant,sigma_a,sigma_b,dsigma,z_rp_re,z_T,z_logx,z_logpc
+gj1132b,GJ 1132 b,reduction,platon,h2o,raw,6.99,0.0,-6.99,10.71,0.91,5.58,
+gj1132b,GJ 1132 b,reduction,taurex,h2o,raw,6.99,0.0,-6.99,3.81,7.74,0.39,
+gj1132b,GJ 1132 b,reduction,platon,h2o_cloud,raw,6.99,0.0,-6.99,2.5,1.2,1.02,3.48
+gj1132b,GJ 1132 b,reduction,taurex,h2o_cloud,raw,6.99,0.0,-6.99,1.96,1.62,1.03,2.75
+hd189733b,HD 189733 b,reduction,platon,ch4,raw,6.99,6.99,0.0,2.88,1.41,0.08,
+hd189733b,HD 189733 b,reduction,taurex,ch4,raw,0.0,0.0,0.0,29.73,0.0,0.07,
+hd189733b,HD 189733 b,reduction,platon,co2,raw,6.99,6.99,0.0,2.9,1.18,1.57,
+hd189733b,HD 189733 b,reduction,taurex,co2,raw,6.99,6.99,0.0,1.93,0.26,3.49,
+hd189733b,HD 189733 b,reduction,platon,h2o,raw,6.99,6.99,0.0,13.51,21.6,20.53,
+hd189733b,HD 189733 b,reduction,taurex,h2o,raw,6.99,6.99,0.0,5.84,1.56,0.75,
+hd189733b,HD 189733 b,reduction,platon,h2o_cloud,raw,6.99,6.99,0.0,13.55,21.16,20.47,0.08
+hd189733b,HD 189733 b,reduction,taurex,h2o_cloud,raw,6.99,6.99,0.0,2.1,1.47,0.62,0.37
+k218b,K2-18 b,epoch,platon,ch4,infl,0.0,0.0,0.0,1.19,0.53,1.2,
+k218b,K2-18 b,epoch,taurex,ch4,infl,0.0,0.0,0.0,1.24,0.5,1.21,
+k218b,K2-18 b,epoch,platon,ch4,raw,0.87,1.19,0.32,1.3,1.02,1.42,
+k218b,K2-18 b,epoch,taurex,ch4,raw,0.0,0.0,0.0,1.45,0.87,1.53,
+k218b,K2-18 b,epoch,platon,ch4_cloud,infl,0.0,0.0,0.0,0.53,0.27,0.85,0.37
+k218b,K2-18 b,epoch,taurex,ch4_cloud,infl,0.0,0.0,0.0,0.06,0.15,0.46,0.15
+k218b,K2-18 b,epoch,platon,ch4_cloud,raw,1.48,0.0,-1.48,1.06,0.79,1.66,0.97
+k218b,K2-18 b,epoch,taurex,ch4_cloud,raw,0.0,0.0,0.0,0.03,0.32,0.85,0.01
+k218b,K2-18 b,epoch,platon,co2,infl,0.0,0.0,0.0,0.19,0.57,0.32,
+k218b,K2-18 b,epoch,taurex,co2,infl,0.0,0.0,0.0,0.7,0.23,0.35,
+k218b,K2-18 b,epoch,platon,co2,raw,0.0,0.0,0.0,0.16,1.28,0.84,
+k218b,K2-18 b,epoch,taurex,co2,raw,0.0,0.0,0.0,1.0,0.29,0.6,
+l9859b,L 98-59 b,reduction,platon,co2,raw,0.0,0.0,0.0,,,,
+l9859b,L 98-59 b,reduction,taurex,co2,raw,0.0,0.0,0.0,,,,
+l9859b,L 98-59 b,reduction,platon,so2,raw,0.0,3.1,3.1,,,,
+l9859b,L 98-59 b,reduction,taurex,so2,raw,1.33,3.19,1.86,,,,
+lhs1140b,LHS 1140 b,control_consistent,platon,co2,raw,0.0,0.0,0.0,2.65,0.2,0.16,
+lhs1140b,LHS 1140 b,control_consistent,taurex,co2,raw,0.0,0.0,0.0,3.82,0.19,1.08,
+lhs1140b,LHS 1140 b,control_consistent,platon,h2o,raw,0.0,0.0,0.0,1.7,0.26,0.06,
+lhs1140b,LHS 1140 b,control_consistent,taurex,h2o,raw,0.0,0.0,0.0,2.9,0.2,0.64,
+lhs1140b,LHS 1140 b,control_consistent,platon,h2o_cloud,raw,0.0,0.0,0.0,0.36,0.0,0.3,0.17
+lhs1140b,LHS 1140 b,control_consistent,taurex,h2o_cloud,raw,0.0,0.0,0.0,0.36,0.13,0.06,0.22
+toi5205b_epoch,TOI-5205 b,epoch,platon,ch4,raw,6.99,6.99,0.0,7.76,0.07,0.68,
+toi5205b_epoch,TOI-5205 b,epoch,taurex,ch4,raw,6.99,6.99,0.0,10.44,0.49,1.59,
+toi5205b_epoch,TOI-5205 b,epoch,platon,co2,raw,6.99,6.99,0.0,7.98,0.08,0.17,
+toi5205b_epoch,TOI-5205 b,epoch,taurex,co2,raw,6.99,6.99,0.0,10.38,1.45,0.5,
+toi5205b_epoch,TOI-5205 b,epoch,platon,h2o,raw,6.99,6.99,0.0,9.72,2.08,7.93,
+toi5205b_epoch,TOI-5205 b,epoch,taurex,h2o,raw,6.99,6.99,0.0,9.25,0.42,2.27,
+toi5205b_epoch,TOI-5205 b,epoch,platon,h2o_cloud,raw,6.99,6.99,0.0,7.42,1.74,6.85,0.07
+toi5205b_epoch,TOI-5205 b,epoch,taurex,h2o_cloud,raw,6.99,6.99,0.0,8.82,0.45,2.21,0.01
+toi5205b_pipe,TOI-5205 b,pipeline,platon,ch4,raw,6.99,6.14,-0.85,3.09,2.39,1.22,
+toi5205b_pipe,TOI-5205 b,pipeline,taurex,ch4,raw,6.99,6.99,0.0,2.98,0.06,2.71,
+toi5205b_pipe,TOI-5205 b,pipeline,platon,co2,raw,6.99,5.52,-1.47,2.73,2.19,0.07,
+toi5205b_pipe,TOI-5205 b,pipeline,taurex,co2,raw,6.99,6.99,0.0,1.96,0.24,0.24,
+toi5205b_pipe,TOI-5205 b,pipeline,platon,h2o,raw,6.99,6.47,-0.52,2.03,0.45,0.68,
+toi5205b_pipe,TOI-5205 b,pipeline,taurex,h2o,raw,6.99,6.99,0.0,4.55,0.09,4.2,
+toi5205b_pipe,TOI-5205 b,pipeline,platon,h2o_cloud,raw,6.99,6.3,-0.69,1.37,0.05,0.52,0.25
+toi5205b_pipe,TOI-5205 b,pipeline,taurex,h2o_cloud,raw,6.99,6.99,0.0,4.51,0.1,4.11,0.0
+wasp12b,WASP-12 b,reduction,platon,h2o,raw,6.42,3.61,-2.81,2.37,0.47,0.48,
+wasp12b,WASP-12 b,reduction,taurex,h2o,raw,6.99,4.1,-2.89,3.94,1.97,0.98,
+wasp12b,WASP-12 b,reduction,platon,h2o_cloud,raw,6.54,3.78,-2.76,2.32,0.92,1.83,0.62
+wasp12b,WASP-12 b,reduction,taurex,h2o_cloud,raw,6.99,3.58,-3.41,2.25,1.68,1.3,1.3
+wasp39b,WASP-39 b,instrument,platon,h2o,raw,6.99,6.99,0.0,16.54,0.5,2.57,
+wasp39b,WASP-39 b,instrument,taurex,h2o,raw,6.99,6.99,0.0,5.95,2.23,31.13,
+wasp39b,WASP-39 b,instrument,platon,h2o_cloud,raw,6.99,6.99,0.0,4.97,19.45,20.73,24.32
+wasp39b,WASP-39 b,instrument,taurex,h2o_cloud,raw,6.99,6.99,0.0,5.14,0.19,14.44,14.8
