@@ -35,6 +35,14 @@ out-of-transit baseline (known windows masked with padding) is then
 quadratically detrended and box-scanned at 0.5/1/2 h durations for
 unexplained dips at SNR ≥ 5.
 
+> **⚠ Erratum (2026-11-07).** The mid-times below were measured with a
+> matched-filter center estimator that is biased on ramp-dominated curves.
+> Model-fit re-measurement retracts the TOI-776 b/c "12–16 minutes late"
+> claim (both are consistent with the ephemeris: −1.5 / −2.6 min) and
+> confirms the K2-18 b result (+49.6 ± 5.5 min). Details and the corrected
+> table: [ERRATUM.md](ERRATUM.md); corrected per-visit mid-times:
+> `results/jwst_midtimes_modelfit.csv`.
+
 **Timing (22 mid-times, 7 planets):**
 
 | planet | visits | mean O−C [min] | visit-to-visit scatter [min] |
