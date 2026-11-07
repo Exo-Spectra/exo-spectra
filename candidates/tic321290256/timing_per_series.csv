@@ -1,0 +1,7 @@
+series,T_obs_btjd,err_h,o_minus_c_min_at_final_ephemeris,note
+QLP-s9,1556.8798,0.08,0.5,
+QLP-s35,2268.0910,0.12,-19.1,
+QLP-s62,3000.3267,0.10,15.5,
+QLP-s89,3732.5363,0.09,12.4,
+QLP-s100,4086.9614,0.10,-18.3,
+TESS-SPOC-s62,3002.2679,0.30,-535.8,excluded from fit (detrending artifact; local z=3.2 displaced by 9 h)

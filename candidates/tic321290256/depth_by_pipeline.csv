@@ -1,0 +1,10 @@
+author,sector,depth_ppm,err_ppm,n_in,note
+QLP,9,597,51,36,
+QLP,35,320,53,109,
+QLP,62,411,44,152,
+QLP,89,446,44,149,
+QLP,100,336,38,149,
+TESS-SPOC,9,628,566,36,PDCSAP detrending suppresses the signal
+TESS-SPOC,35,-76,85,125,PDCSAP detrending suppresses the signal; raw FFI gives +685+-59 in this sector
+TESS-SPOC,62,189,169,124,PDCSAP detrending suppresses the signal
+RAW-FFI,joint,511,26,630,independent aperture photometry of TESScut cutouts; empirical z=+5.6 vs 300 random-phase folds
