@@ -69,6 +69,9 @@ surveys (VSX 31%, ASAS-SN 4%) catch the shallower/brighter part.
 
 - `eb_catalog.csv` — the catalog (1360 rows).
 - `figure_period_depth.png` — adopted period vs primary depth, colored by Teff.
+- `eb_lightcurves_png.zip` (GitHub release asset of tag `eb-catalog-v1.0`,
+  72 MB) — a phase-folded light curve plot for every catalog entry
+  (evidence for database submissions).
 
 ## License and citation
 
