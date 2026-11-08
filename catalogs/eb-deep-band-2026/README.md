@@ -69,9 +69,13 @@ surveys (VSX 31%, ASAS-SN 4%) catch the shallower/brighter part.
   such a window, and the per-event quality cut (>=6 eclipses, SNR>=5)
   removes targets dominated by single-window artifacts.
 - Positional novelty was assessed on 2026-11-08 against VSX, ASAS-SN
-  (II/366, v2021-10-08 via the AVSD snapshot of 2024-09-10) and the TESS EB
-  Catalog (Prsa et al. 2022, J/ApJS/258/16); catalogs grow, re-check before
-  claiming individual novelty.
+  (II/366, v2021-10-08 via the AVSD snapshot of 2024-09-10), the TESS EB
+  Catalog (Prsa et al. 2022, J/ApJS/258/16) and the TESS Ten Thousand
+  Catalog (Kostov et al. 2025, J/ApJS/279/50: zero matches by TIC or
+  within 21 arcsec -- their vetted sample is much fainter, median T=13.8);
+  catalogs grow, re-check before claiming individual novelty. Note that
+  Kostov et al. also published ~900k UNVETTED neural-network candidates;
+  overlap with that list was not checked (it is not a vetted catalog).
 
 ## Files
 
