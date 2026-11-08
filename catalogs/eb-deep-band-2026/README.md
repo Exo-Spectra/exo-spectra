@@ -60,6 +60,14 @@ surveys (VSX 31%, ASAS-SN 4%) catch the shallower/brighter part.
   listed value (near-equal eclipse depths).
 - Ephemerides come from a BLS fit to sectors spanning up to ~5 years;
   accumulated phase drift of minutes-to-tens-of-minutes is possible.
+- QLP light curves in recent sectors fill the orbital-gap (downlink) window
+  with scattered-light cadences flagged by quality bit 2^30, which the
+  default lightkurve mask does not reject. This can fabricate single
+  transit-like events, but cannot fabricate the alternating, periodic
+  eclipse pattern required here: 99.9% of catalog entries are confirmed in
+  >=2 sectors (median 4), none of the entries has its reference epoch inside
+  such a window, and the per-event quality cut (>=6 eclipses, SNR>=5)
+  removes targets dominated by single-window artifacts.
 - Positional novelty was assessed on 2026-11-08 against VSX, ASAS-SN
   (II/366, v2021-10-08 via the AVSD snapshot of 2024-09-10) and the TESS EB
   Catalog (Prsa et al. 2022, J/ApJS/258/16); catalogs grow, re-check before
