@@ -1,4 +1,4 @@
-# Study 8 — How robust are atmospheric retrieval conclusions to upstream choices? A 144-run two-code sensitivity matrix
+# Study 8 — How robust are atmospheric retrieval conclusions to upstream choices? A 144-cell two-code sensitivity matrix
 
 *8 science pairs of published or re-reduced transmission spectra of the same
 planet — each pair differing in exactly one upstream choice (data reduction,
@@ -25,8 +25,9 @@ version *of the same telescope data*. For K2-18 b, the methane hints
 vanish entirely once you admit, in the error bars, that the planet's
 spectrum does not repeat between visits. Genuinely strong detections (hot
 giants like HD 189733 b) survive every swap. The lasting product is the
-full grid of 144 converged model comparisons — a ground-truth set anyone
-can use to test faster retrieval methods.
+full grid of 144 model comparisons (120 nested-sampling runs, 118 fully
+converged) — a ground-truth set anyone can use to test faster retrieval
+methods.
 
 ## Summary (for the technical reader)
 
@@ -54,9 +55,27 @@ K2-18 b adds an error-inflation variant ("infl"): uncertainties inflated by
 the measured epoch disagreement from Study 3's catalog. Significance uses
 the Benneke & Seager (2013) Bayes-factor mapping, **capped at 6.99σ**
 (the p-value solver saturates near p ~ 1e-12; lnB is always reported
-alongside). 72 runs per code, 144 total, all converged.
-(`results/sigma_all.csv` holds 116 rows = 108 non-flat fits — 144 runs
-minus 36 flat baselines, which enter only as the lnB reference — plus 8
+alongside). The matrix has 144 cells, 72 per code. They come from 120
+distinct nested-sampling runs. The flat baseline does not depend on the
+radiative-transfer code, so for 16 of the 18 flat baselines (spectrum ×
+error variant) both codes have an identical flat run (same input and seed,
+hence the same result); for LHS 1140 b a/b the TauREx flat run predates the
+sampler switch (see `DATA_DICTIONARY.md`) and differs. TOI-5205 b side a is
+the same spectrum in two pairs, and 9 of its 10 cells are identical runs
+(PLATON H₂O was run separately). `run_id` in `results/evidences_all.csv`
+marks every identical run; treat them as one, not as independent samples.
+118 distinct runs ended on the dlogz = 0.1 stopping criterion (19 of them
+predate the `capped` flag, but all stopped below every call budget ever in
+force, so they ended on dlogz). 2 runs hit the call budget (100 000 at the
+time) and are flagged `capped = 1`: TauREx CH₄ on both sides of
+HD 189733 b. Their lnB vs flat is about −99 and −98, and even their best
+likelihood found is about 81 below the flat model, so the 0σ verdict
+there (R7) is very unlikely to depend on the unfinished part of the evidence
+integral (the best likelihood found is a lower bound, not a strict limit).
+*(Correction in v1.1: v1.0 stated "72 runs per code, 144 total, all
+converged".)*
+(`results/sigma_all.csv` holds 116 rows = 108 non-flat fits — 144 cells
+minus 36 flat cells, which enter only as the lnB reference — plus 8
 L 98-59 b rows imported from Study 4.)
 
 **Results.**
@@ -122,9 +141,10 @@ L 98-59 b rows imported from Study 4.)
   simulation-based challenges (ABC/Ariel). To our knowledge this is the
   first homogeneous two-code sensitivity grid along
   reduction/epoch/pipeline/instrument axes on real archival spectra of the
-  same planets. The 144 converged dynesty lnZ values double as a
-  ground-truth set for validating ML-accelerated retrievals (FMPE +
-  importance sampling, transformer priors).
+  same planets. The absolute dynesty lnZ of all 144 cells, with the exact
+  input spectra and priors (added in v1.1), double as a ground-truth set
+  for validating ML-accelerated retrievals (FMPE + importance sampling,
+  transformer priors).
 
 ## Results & data
 
@@ -134,11 +154,43 @@ L 98-59 b rows imported from Study 4.)
   posterior z-shifts (radius, T, log-abundance, cloud pressure).
 * `results/codes_agreement.csv` — TauREx vs PLATON per cell: Δσ, ΔlnB.
 * `results/pairs.csv` — the pair definitions (files, axes, authors).
+* `results/evidences_all.csv` *(v1.1)* — all 144 cells with the absolute
+  lnZ, lnZ_err, max log-likelihood, likelihood calls, live points,
+  `capped` flag and `run_id` (shared runs have the same id).
+* `results/input_spectra/<pair>__<side>.csv` *(v1.1)* — the 16 spectra
+  exactly as fitted: cut to the pair's common wavelength range, in ppm.
+  For K2-18 b `infl` cells, multiply `err_ppm` by `err_scale` from
+  `retrieval_setup.csv`.
+* `results/retrieval_setup.csv` *(v1.1)* — per spectrum and error variant:
+  system parameters, model wavelength range, model list and the exact
+  uniform prior bounds.
+* Validation of the v1.1 export (`src/gap7_export_release.py`): the flat
+  model's lnZ has a closed form; recomputed from the spectra as fitted, for
+  all 36 flat cells, it matches dynesty within 1.3 lnZ_err everywhere
+  (max |difference| 0.23), and the same check from the published CSVs gives
+  the same result. The script itself runs only in the working repository
+  (it reads the intermediate retrieval files); its `flat_lnz()` can be
+  reused on the published CSVs.
 * `results/delta_sigma.png` + `results/fit__<pair>.png` — overview heatmap
   and per-pair best fits for the 8 newly-run pairs (L 98-59 b reuses
   Study 4 artifacts).
 * Reproduce: `src/gap7_retrieval.py` (the matrix; expects the pair spectra
   listed in `results/pairs.csv`) and `src/gap7_report.py` (aggregation;
-  imports `l9859b_retrieval.py` from this repository). Spectra sources:
+  imports `l9859b_retrieval.py` from this repository). Software versions:
+  TauREx 3.3.2, PLATON 5.4, dynesty 3.1.0. TauREx cross-sections (R = 15000,
+  TauREx HDF5 format): H₂O POKAZATEL, CH₄ MM, CO₂ UCL-4000, SO₂ ExoAmes
+  (ExoMol line lists); PLATON uses its own bundled opacity data. Spectra
+  sources:
   NASA Exoplanet Archive Atmospheric Spectroscopy table (archive pairs)
-  and Study 3's homogeneous re-reductions (K2-18 b, LHS 1140 b).
+  and Study 3's homogeneous re-reductions (K2-18 b, LHS 1140 b; their
+  `source_file` lives in `studies/03-jwst-mini-survey/results/spectra/`).
+
+## Version history
+
+* **v1.1 (2026-11-08)** — data-only release. Adds `evidences_all.csv`,
+  `input_spectra/` and `retrieval_setup.csv`, so the matrix can be used as a
+  benchmark without re-running anything. Corrects the run count and the
+  convergence statement (120 distinct runs; 2 capped at the call budget, see
+  Summary) and documents the sampler and budget history. No result, figure
+  or conclusion changes.
+* **v1.0 (2026-10-11)** — first release.
