@@ -1,0 +1,17 @@
+# Excerpt from summary.txt of the project's deep-vetting run for TIC 253929649 (2026-10-11 22:30:39, the same run that wrote depth_by_pipeline.csv). Polish labels: 'Kandydackie okresy' = candidate periods; 'EFEMERYDA (zwyciezca scoringu)' = ephemeris (scoring winner). The per-series depths below are identical to depth_by_pipeline.csv.
+Kandydackie okresy (top-5 pikow BLS, scoring = SNR - kara za niespojnosc):
+  P=4.878611 d  SNR_laczny=  7.1  chi2r_serii= 2.18  score=   4.7
+  P=4.852472 d  SNR_laczny=  4.6  chi2r_serii= 1.65  score=   3.3
+  P=4.814564 d  SNR_laczny=  6.6  chi2r_serii= 2.99  score=   2.6
+  P=4.869591 d  SNR_laczny=  4.6  chi2r_serii= 1.89  score=   2.8
+  P=4.789319 d  SNR_laczny=  6.0  chi2r_serii= 1.65  score=   4.7
+
+EFEMERYDA (zwyciezca scoringu): P=4.878611 d, t0(BTJD)=1329.63239, dur_BLS=0.96 h, baza=2582 d, n_pkt=20322
+  SPOC       s28  depth=  622.4 +/- 152.4 ppm (n_in=18)
+  TESS-SPOC  s1   depth=  162.1 +/- 209.6 ppm (n_in=4)
+  TESS-SPOC  s28  depth=  285.0 +/- 153.0 ppm (n_in=18)
+  TESS-SPOC  s68  depth=   80.8 +/- 130.2 ppm (n_in=22)
+  QLP        s1   depth=  255.2 +/- 229.8 ppm (n_in=6)
+  QLP        s28  depth=  443.4 +/- 151.5 ppm (n_in=30)
+  QLP        s68  depth=  246.8 +/- 143.4 ppm (n_in=30)
+  QLP        s95  depth=  621.4 +/- 111.3 ppm (n_in=30)

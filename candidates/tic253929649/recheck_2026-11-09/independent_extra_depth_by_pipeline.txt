@@ -1,0 +1,10 @@
+  comparison with authors' depth_by_pipeline.csv at their BLS ephemeris P=4.878611, t0=1329.63239, dur=0.96 h:
+     series          authors(depth+-err, n_in) | mine lkdef+pipeline flux | mine strict+own detrend
+     SPOC-s28         622.4+-152.4 (n=18) |    496+-161 (n=16) |    496+-161 (n=16)
+     TESS-SPOC-s1     162.1+-209.6 (n= 4) |    251+-187 (n= 4) |    251+-187 (n= 4)
+     TESS-SPOC-s28    285.0+-153.0 (n=18) |    425+-152 (n=18) |    425+-152 (n=18)
+     TESS-SPOC-s68     80.8+-130.2 (n=22) |     78+-129 (n=22) |     78+-129 (n=22)
+     QLP-s1           255.2+-229.8 (n= 6) |    394+-203 (n= 7) |    307+-250 (n= 4)
+     QLP-s28          443.4+-151.5 (n=30) |    465+-148 (n=30) |    209+-192 (n=16)
+     QLP-s68          246.8+-143.4 (n=30) |    272+-139 (n=29) |    156+-136 (n=28)
+     QLP-s95          621.4+-111.3 (n=30) |    327+-120 (n=22) |    173+-128 (n=18)

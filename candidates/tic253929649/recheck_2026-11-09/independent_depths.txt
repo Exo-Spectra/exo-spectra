@@ -1,0 +1,161 @@
+##### TIC 253929649  config A_lkdef_runmed
+series              n  sig10m n_in   depth formal nullSD_ph  p_phase nullSD_rnd   p_rand
+SPOC-s28         2384     644   20      95    144       145   0.2543        151   0.2577
+TESS-SPOC-s1     1171     375    6     120    153       136   0.1926        125   0.1620
+TESS-SPOC-s28    2381     643   19     200    147       152   0.1012        153   0.0960
+TESS-SPOC-s68    2782     603   28    -144    114       132   0.8815        133   0.8675
+QLP-s1           1220     534    7      71    202       184   0.3827        178   0.3262
+QLP-s28          3444     807   32    -134    143       164   0.7728        169   0.7833
+QLP-s68          3456     772   33     223    134       185   0.0765        202   0.1145
+QLP-s95          3172     589   27     172    113       177   0.1333        184   0.1446
+POOLED all series                             [SPOC-s28+TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68+QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    62 ppm formal=   49 | phase-null SD=   64 (N=404) z= 0.98 p=0.1457 | random-ephemeris null SD=   71 (N=4000) z= 0.88 p=0.17146
+POOLED one per sector (SPOC>TESS-SPOC>QLP)    [TESS-SPOC-s1+SPOC-s28+TESS-SPOC-s68+QLP-s95]
+     depth=    49 ppm formal=   64 | phase-null SD=   78 (N=404) z= 0.63 p=0.2741 | random-ephemeris null SD=   75 (N=4000) z= 0.65 p=0.24769
+POOLED one per sector (QLP>TESS-SPOC>SPOC)    [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    94 ppm formal=   70 | phase-null SD=   84 (N=404) z= 1.12 p=0.1136 | random-ephemeris null SD=   96 (N=4000) z= 0.98 p=0.14096
+POOLED SPOC 2-min only                        [SPOC-s28]
+     depth=    84 ppm formal=  144 | phase-null SD=  143 (N=404) z= 0.58 p=0.2543 | random-ephemeris null SD=  149 (N=4000) z= 0.56 p=0.25694
+POOLED TESS-SPOC only                         [TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68]
+     depth=    16 ppm formal=   78 | phase-null SD=   71 (N=404) z= 0.23 p=0.3778 | random-ephemeris null SD=   76 (N=4000) z= 0.21 p=0.39190
+POOLED QLP only                               [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    94 ppm formal=   70 | phase-null SD=   84 (N=404) z= 1.12 p=0.1136 | random-ephemeris null SD=   96 (N=4000) z= 0.98 p=0.14096
+
+##### TIC 253929649  config B_strict_runmed
+series              n  sig10m n_in   depth formal nullSD_ph  p_phase nullSD_rnd   p_rand
+SPOC-s28         2384     644   20      95    144       145   0.2543        151   0.2577
+TESS-SPOC-s1     1171     375    6     120    153       136   0.1926        125   0.1620
+TESS-SPOC-s28    2381     643   19     200    147       152   0.1012        153   0.0960
+TESS-SPOC-s68    2782     603   28    -144    114       132   0.8815        133   0.8675
+QLP-s1           1000     501    6      57    204       197   0.3753        180   0.3582
+QLP-s28          2169     768   16      28    192       194   0.4617        195   0.4284
+QLP-s68          2983     721   33      90    125       144   0.2444        153   0.2719
+QLP-s95          2637     545   19      54    125       119   0.3086        127   0.3277
+POOLED all series                             [SPOC-s28+TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68+QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    46 ppm formal=   50 | phase-null SD=   59 (N=404) z= 0.78 p=0.2173 | random-ephemeris null SD=   65 (N=4000) z= 0.70 p=0.22544
+POOLED one per sector (SPOC>TESS-SPOC>QLP)    [TESS-SPOC-s1+SPOC-s28+TESS-SPOC-s68+QLP-s95]
+     depth=     9 ppm formal=   66 | phase-null SD=   60 (N=404) z= 0.16 p=0.4272 | random-ephemeris null SD=   64 (N=4000) z= 0.15 p=0.44639
+POOLED one per sector (QLP>TESS-SPOC>SPOC)    [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    63 ppm formal=   75 | phase-null SD=   74 (N=404) z= 0.85 p=0.2000 | random-ephemeris null SD=   76 (N=4000) z= 0.83 p=0.20195
+POOLED SPOC 2-min only                        [SPOC-s28]
+     depth=    84 ppm formal=  144 | phase-null SD=  143 (N=404) z= 0.58 p=0.2543 | random-ephemeris null SD=  149 (N=4000) z= 0.56 p=0.25694
+POOLED TESS-SPOC only                         [TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68]
+     depth=    16 ppm formal=   78 | phase-null SD=   71 (N=404) z= 0.23 p=0.3778 | random-ephemeris null SD=   76 (N=4000) z= 0.21 p=0.39190
+POOLED QLP only                               [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    63 ppm formal=   75 | phase-null SD=   74 (N=404) z= 0.85 p=0.2000 | random-ephemeris null SD=   76 (N=4000) z= 0.83 p=0.20195
+
+##### TIC 253929649  config C_strict_pipedet
+series              n  sig10m n_in   depth formal nullSD_ph  p_phase nullSD_rnd   p_rand
+SPOC-s28         2384     644   20      95    144       145   0.2543        151   0.2577
+TESS-SPOC-s1     1171     375    6     120    153       136   0.1926        125   0.1620
+TESS-SPOC-s28    2381     643   19     200    147       152   0.1012        153   0.0960
+TESS-SPOC-s68    2782     603   28    -144    114       132   0.8815        133   0.8675
+QLP-s1           1000     492    6      47    201       192   0.4173        180   0.3907
+QLP-s28          2169     763   16      14    191       192   0.4642        194   0.4624
+QLP-s68          2983     705   33      69    123       142   0.3111        146   0.3109
+QLP-s95          2637     524   19      37    120       114   0.3457        113   0.3650
+POOLED all series                             [SPOC-s28+TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68+QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    36 ppm formal=   50 | phase-null SD=   59 (N=404) z= 0.62 p=0.2543 | random-ephemeris null SD=   64 (N=4000) z= 0.57 p=0.25269
+POOLED one per sector (SPOC>TESS-SPOC>QLP)    [TESS-SPOC-s1+SPOC-s28+TESS-SPOC-s68+QLP-s95]
+     depth=     2 ppm formal=   65 | phase-null SD=   60 (N=404) z= 0.03 p=0.4519 | random-ephemeris null SD=   61 (N=4000) z= 0.03 p=0.47538
+POOLED one per sector (QLP>TESS-SPOC>SPOC)    [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    42 ppm formal=   73 | phase-null SD=   72 (N=404) z= 0.58 p=0.2914 | random-ephemeris null SD=   71 (N=4000) z= 0.59 p=0.25919
+POOLED SPOC 2-min only                        [SPOC-s28]
+     depth=    84 ppm formal=  144 | phase-null SD=  143 (N=404) z= 0.58 p=0.2543 | random-ephemeris null SD=  149 (N=4000) z= 0.56 p=0.25694
+POOLED TESS-SPOC only                         [TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68]
+     depth=    16 ppm formal=   78 | phase-null SD=   71 (N=404) z= 0.23 p=0.3778 | random-ephemeris null SD=   76 (N=4000) z= 0.21 p=0.39190
+POOLED QLP only                               [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    42 ppm formal=   73 | phase-null SD=   72 (N=404) z= 0.58 p=0.2914 | random-ephemeris null SD=   71 (N=4000) z= 0.59 p=0.25919
+
+##### TIC 253929649  config D_strict_spline
+series              n  sig10m n_in   depth formal nullSD_ph  p_phase nullSD_rnd   p_rand
+SPOC-s28         2384     646   20      77    144       145   0.3086        148   0.2929
+TESS-SPOC-s1     1171     374    6     175    153       134   0.1062        125   0.0777
+TESS-SPOC-s28    2381     642   19     125    147       146   0.1901        149   0.1935
+TESS-SPOC-s68    2782     612   28    -129    116       127   0.8642        130   0.8475
+QLP-s1           1000     513    6      20    209       187   0.4642        178   0.4449
+QLP-s28          2169     777   16      41    194       193   0.4247        194   0.4074
+QLP-s68          2984     726   33      46    126       151   0.3704        161   0.3832
+QLP-s95          2637     531   19      66    122       110   0.2889        126   0.2775
+POOLED all series                             [SPOC-s28+TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68+QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    37 ppm formal=   51 | phase-null SD=   61 (N=404) z= 0.60 p=0.2593 | random-ephemeris null SD=   64 (N=4000) z= 0.57 p=0.24344
+POOLED one per sector (SPOC>TESS-SPOC>QLP)    [TESS-SPOC-s1+SPOC-s28+TESS-SPOC-s68+QLP-s95]
+     depth=    22 ppm formal=   65 | phase-null SD=   59 (N=404) z= 0.38 p=0.3284 | random-ephemeris null SD=   61 (N=4000) z= 0.37 p=0.32967
+POOLED one per sector (QLP>TESS-SPOC>SPOC)    [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    45 ppm formal=   75 | phase-null SD=   76 (N=404) z= 0.59 p=0.2716 | random-ephemeris null SD=   75 (N=4000) z= 0.60 p=0.24019
+POOLED SPOC 2-min only                        [SPOC-s28]
+     depth=    60 ppm formal=  144 | phase-null SD=  144 (N=404) z= 0.42 p=0.3086 | random-ephemeris null SD=  147 (N=4000) z= 0.41 p=0.29293
+POOLED TESS-SPOC only                         [TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68]
+     depth=    21 ppm formal=   78 | phase-null SD=   70 (N=404) z= 0.30 p=0.3753 | random-ephemeris null SD=   75 (N=4000) z= 0.28 p=0.37241
+POOLED QLP only                               [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    45 ppm formal=   75 | phase-null SD=   76 (N=404) z= 0.59 p=0.2716 | random-ephemeris null SD=   75 (N=4000) z= 0.60 p=0.24019
+
+##### TIC 253929649  config F_lkdef_pipedet
+series              n  sig10m n_in   depth formal nullSD_ph  p_phase nullSD_rnd   p_rand
+SPOC-s28         2384     644   20      95    144       145   0.2543        151   0.2577
+TESS-SPOC-s1     1171     375    6     120    153       136   0.1926        125   0.1620
+TESS-SPOC-s28    2381     643   19     200    147       152   0.1012        153   0.0960
+TESS-SPOC-s68    2782     603   28    -144    114       132   0.8815        133   0.8675
+QLP-s1           1220     537    7      69    203       188   0.3778        177   0.3354
+QLP-s28          3444     808   32    -114    143       166   0.7136        169   0.7463
+QLP-s68          3469     747   33     134    130       155   0.1778        168   0.2057
+QLP-s95          3281     565   25     194    113       126   0.0716        136   0.0693
+POOLED all series                             [SPOC-s28+TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68+QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    59 ppm formal=   49 | phase-null SD=   57 (N=404) z= 1.03 p=0.1284 | random-ephemeris null SD=   65 (N=4000) z= 0.90 p=0.16896
+POOLED one per sector (SPOC>TESS-SPOC>QLP)    [TESS-SPOC-s1+SPOC-s28+TESS-SPOC-s68+QLP-s95]
+     depth=    54 ppm formal=   64 | phase-null SD=   63 (N=404) z= 0.85 p=0.2025 | random-ephemeris null SD=   66 (N=4000) z= 0.82 p=0.18870
+POOLED one per sector (QLP>TESS-SPOC>SPOC)    [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    86 ppm formal=   69 | phase-null SD=   69 (N=404) z= 1.24 p=0.0840 | random-ephemeris null SD=   80 (N=4000) z= 1.08 p=0.13597
+POOLED SPOC 2-min only                        [SPOC-s28]
+     depth=    84 ppm formal=  144 | phase-null SD=  143 (N=404) z= 0.58 p=0.2543 | random-ephemeris null SD=  149 (N=4000) z= 0.56 p=0.25694
+POOLED TESS-SPOC only                         [TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68]
+     depth=    16 ppm formal=   78 | phase-null SD=   71 (N=404) z= 0.23 p=0.3778 | random-ephemeris null SD=   76 (N=4000) z= 0.21 p=0.39190
+POOLED QLP only                               [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    86 ppm formal=   69 | phase-null SD=   69 (N=404) z= 1.24 p=0.0840 | random-ephemeris null SD=   80 (N=4000) z= 1.08 p=0.13597
+
+##### TIC 253929649  config G_strict_runmed1.5
+series              n  sig10m n_in   depth formal nullSD_ph  p_phase nullSD_rnd   p_rand
+SPOC-s28         2384     645   20     131    144       151   0.1827        151   0.1910
+TESS-SPOC-s1     1171     383    6     207    156       135   0.0691        133   0.0595
+TESS-SPOC-s28    2381     648   19     199    149       155   0.1111        153   0.0970
+TESS-SPOC-s68    2782     616   28    -172    116       134   0.9086        135   0.8983
+QLP-s1           1000     516    6     129    211       223   0.2691        201   0.2562
+QLP-s28          2169     779   16     152    195       217   0.2222        212   0.2202
+QLP-s68          2984     749   33      66    130       159   0.3358        177   0.3569
+QLP-s95          2635     554   19      44    127       127   0.3654        167   0.3673
+POOLED all series                             [SPOC-s28+TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68+QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    63 ppm formal=   51 | phase-null SD=   64 (N=404) z= 0.98 p=0.1506 | random-ephemeris null SD=   71 (N=4000) z= 0.88 p=0.17846
+POOLED one per sector (SPOC>TESS-SPOC>QLP)    [TESS-SPOC-s1+SPOC-s28+TESS-SPOC-s68+QLP-s95]
+     depth=    22 ppm formal=   67 | phase-null SD=   62 (N=404) z= 0.36 p=0.3827 | random-ephemeris null SD=   72 (N=4000) z= 0.31 p=0.39140
+POOLED one per sector (QLP>TESS-SPOC>SPOC)    [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    84 ppm formal=   77 | phase-null SD=   83 (N=404) z= 1.00 p=0.1704 | random-ephemeris null SD=   91 (N=4000) z= 0.91 p=0.19495
+POOLED SPOC 2-min only                        [SPOC-s28]
+     depth=   119 ppm formal=  144 | phase-null SD=  149 (N=404) z= 0.80 p=0.1827 | random-ephemeris null SD=  150 (N=4000) z= 0.80 p=0.19020
+POOLED TESS-SPOC only                         [TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68]
+     depth=    24 ppm formal=   79 | phase-null SD=   73 (N=404) z= 0.32 p=0.3531 | random-ephemeris null SD=   79 (N=4000) z= 0.30 p=0.34491
+POOLED QLP only                               [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    84 ppm formal=   77 | phase-null SD=   83 (N=404) z= 1.00 p=0.1704 | random-ephemeris null SD=   91 (N=4000) z= 0.91 p=0.19495
+
+##### TIC 253929649  config H_strict_runmed0.4
+series              n  sig10m n_in   depth formal nullSD_ph  p_phase nullSD_rnd   p_rand
+SPOC-s28         2384     631   20      73    141       141   0.2988        146   0.2949
+TESS-SPOC-s1     1171     356    6     118    145       124   0.1753        117   0.1477
+TESS-SPOC-s28    2381     640   19     234    147       150   0.0716        150   0.0557
+TESS-SPOC-s68    2782     602   28    -142    114       129   0.8691        129   0.8718
+QLP-s1           1000     477    6     108    195       183   0.2691        177   0.2522
+QLP-s28          2169     741   16      82    185       179   0.3309        186   0.3234
+QLP-s68          2983     699   33      32    122       134   0.3654        146   0.4099
+QLP-s95          2637     530   19      72    122       114   0.2494        117   0.2657
+POOLED all series                             [SPOC-s28+TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68+QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    48 ppm formal=   49 | phase-null SD=   56 (N=404) z= 0.86 p=0.1877 | random-ephemeris null SD=   62 (N=4000) z= 0.78 p=0.20095
+POOLED one per sector (SPOC>TESS-SPOC>QLP)    [TESS-SPOC-s1+SPOC-s28+TESS-SPOC-s68+QLP-s95]
+     depth=    13 ppm formal=   64 | phase-null SD=   57 (N=404) z= 0.23 p=0.4000 | random-ephemeris null SD=   60 (N=4000) z= 0.22 p=0.40640
+POOLED one per sector (QLP>TESS-SPOC>SPOC)    [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    61 ppm formal=   72 | phase-null SD=   70 (N=404) z= 0.88 p=0.1901 | random-ephemeris null SD=   72 (N=4000) z= 0.86 p=0.18795
+POOLED SPOC 2-min only                        [SPOC-s28]
+     depth=    63 ppm formal=  141 | phase-null SD=  140 (N=404) z= 0.45 p=0.2988 | random-ephemeris null SD=  145 (N=4000) z= 0.44 p=0.29493
+POOLED TESS-SPOC only                         [TESS-SPOC-s1+TESS-SPOC-s28+TESS-SPOC-s68]
+     depth=    30 ppm formal=   77 | phase-null SD=   67 (N=404) z= 0.44 p=0.3210 | random-ephemeris null SD=   73 (N=4000) z= 0.41 p=0.31967
+POOLED QLP only                               [QLP-s1+QLP-s28+QLP-s68+QLP-s95]
+     depth=    61 ppm formal=   72 | phase-null SD=   70 (N=404) z= 0.88 p=0.1901 | random-ephemeris null SD=   72 (N=4000) z= 0.86 p=0.18795
+

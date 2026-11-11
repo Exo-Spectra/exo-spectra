@@ -1,0 +1,59 @@
+authors (alias_test_s106.csv): P=4.878611: -181+-146; P=4.852472: -117+-156; P=4.814564: +368+-144; P=4.869591: +26+-146; P=4.789319: +141+-146
+
+[3x3 on star, q==0, runmed 0.75 d] n=3067 sigma(10 min)=654 ppm
+   P=4.878611: depth@predicted=   -59 +- 108 formal (n_in=37); phase-null SD=142 ppm; z_emp=-0.42; single-trial p=0.629
+   P=4.852472: depth@predicted=    84 +- 112 formal (n_in=34); phase-null SD=137 ppm; z_emp= 0.61; single-trial p=0.260
+   P=4.814564: depth@predicted=   216 +- 105 formal (n_in=39); phase-null SD=143 ppm; z_emp= 1.51; single-trial p=0.069
+   P=4.869591: depth@predicted=   132 +- 105 formal (n_in=39); phase-null SD=136 ppm; z_emp= 0.96; single-trial p=0.193
+   P=4.789319: depth@predicted=   152 +- 103 formal (n_in=40); phase-null SD=127 ppm; z_emp= 1.20; single-trial p=0.104
+   best of five: P=4.814564 z_emp=1.51; chance that the best of five random-phase periods reaches this = 0.277   | P=4.814564 alone: z_emp=1.51, single p=0.069, 'any of five' p=0.301
+
+[3x3 on star, q==0, runmed 1.5 d] n=3067 sigma(10 min)=654 ppm
+   P=4.878611: depth@predicted=   -11 +- 108 formal (n_in=37); phase-null SD=152 ppm; z_emp=-0.07; single-trial p=0.505
+   P=4.852472: depth@predicted=    30 +- 112 formal (n_in=34); phase-null SD=147 ppm; z_emp= 0.21; single-trial p=0.375
+   P=4.814564: depth@predicted=   289 +- 105 formal (n_in=39); phase-null SD=154 ppm; z_emp= 1.88; single-trial p=0.030
+   P=4.869591: depth@predicted=   103 +- 105 formal (n_in=39); phase-null SD=148 ppm; z_emp= 0.70; single-trial p=0.237
+   P=4.789319: depth@predicted=   121 +- 103 formal (n_in=40); phase-null SD=141 ppm; z_emp= 0.86; single-trial p=0.182
+   best of five: P=4.814564 z_emp=1.88; chance that the best of five random-phase periods reaches this = 0.138   | P=4.814564 alone: z_emp=1.88, single p=0.030, 'any of five' p=0.140
+
+[3x3 on star, keep flag 2048, runmed 0.75 d] n=3354 sigma(10 min)=685 ppm
+   P=4.878611: depth@predicted=   -21 +- 108 formal (n_in=40); phase-null SD=172 ppm; z_emp=-0.12; single-trial p=0.500
+   P=4.852472: depth@predicted=    53 +- 111 formal (n_in=38); phase-null SD=171 ppm; z_emp= 0.31; single-trial p=0.333
+   P=4.814564: depth@predicted=   116 +- 113 formal (n_in=37); phase-null SD=182 ppm; z_emp= 0.64; single-trial p=0.230
+   P=4.869591: depth@predicted=   159 +- 110 formal (n_in=39); phase-null SD=168 ppm; z_emp= 0.95; single-trial p=0.166
+   P=4.789319: depth@predicted=   171 +- 108 formal (n_in=40); phase-null SD=148 ppm; z_emp= 1.15; single-trial p=0.087
+   best of five: P=4.789319 z_emp=1.15; chance that the best of five random-phase periods reaches this = 0.424   | P=4.814564 alone: z_emp=0.64, single p=0.230, 'any of five' p=0.729
+
+[3x3 on star, keep flag 2048, runmed 1.5 d] n=3335 sigma(10 min)=689 ppm
+   P=4.878611: depth@predicted=     5 +- 109 formal (n_in=40); phase-null SD=179 ppm; z_emp= 0.03; single-trial p=0.441
+   P=4.852472: depth@predicted=    16 +- 112 formal (n_in=38); phase-null SD=169 ppm; z_emp= 0.09; single-trial p=0.463
+   P=4.814564: depth@predicted=   167 +- 113 formal (n_in=37); phase-null SD=189 ppm; z_emp= 0.88; single-trial p=0.193
+   P=4.869591: depth@predicted=   141 +- 110 formal (n_in=39); phase-null SD=171 ppm; z_emp= 0.83; single-trial p=0.183
+   P=4.789319: depth@predicted=   153 +- 109 formal (n_in=40); phase-null SD=167 ppm; z_emp= 0.92; single-trial p=0.179
+   best of five: P=4.789319 z_emp=0.92; chance that the best of five random-phase periods reaches this = 0.597   | P=4.814564 alone: z_emp=0.88, single p=0.193, 'any of five' p=0.657
+
+[5x5 on star, q==0, runmed 0.75 d] n=3065 sigma(10 min)=834 ppm
+   P=4.878611: depth@predicted=  -109 +- 137 formal (n_in=37); phase-null SD=194 ppm; z_emp=-0.57; single-trial p=0.729
+   P=4.852472: depth@predicted=    93 +- 143 formal (n_in=34); phase-null SD=199 ppm; z_emp= 0.47; single-trial p=0.292
+   P=4.814564: depth@predicted=   185 +- 134 formal (n_in=39); phase-null SD=201 ppm; z_emp= 0.92; single-trial p=0.188
+   P=4.869591: depth@predicted=    30 +- 134 formal (n_in=39); phase-null SD=193 ppm; z_emp= 0.15; single-trial p=0.438
+   P=4.789319: depth@predicted=   170 +- 132 formal (n_in=40); phase-null SD=192 ppm; z_emp= 0.89; single-trial p=0.147
+   best of five: P=4.814564 z_emp=0.92; chance that the best of five random-phase periods reaches this = 0.571   | P=4.814564 alone: z_emp=0.92, single p=0.188, 'any of five' p=0.646
+
+[5x5 on star, q==0, runmed 1.5 d] n=3063 sigma(10 min)=851 ppm
+   P=4.878611: depth@predicted=   -40 +- 140 formal (n_in=37); phase-null SD=218 ppm; z_emp=-0.18; single-trial p=0.556
+   P=4.852472: depth@predicted=   -46 +- 146 formal (n_in=34); phase-null SD=219 ppm; z_emp=-0.21; single-trial p=0.583
+   P=4.814564: depth@predicted=   297 +- 136 formal (n_in=39); phase-null SD=223 ppm; z_emp= 1.34; single-trial p=0.101
+   P=4.869591: depth@predicted=    10 +- 136 formal (n_in=39); phase-null SD=218 ppm; z_emp= 0.04; single-trial p=0.477
+   P=4.789319: depth@predicted=   107 +- 135 formal (n_in=40); phase-null SD=219 ppm; z_emp= 0.49; single-trial p=0.274
+   best of five: P=4.814564 z_emp=1.34; chance that the best of five random-phase periods reaches this = 0.382   | P=4.814564 alone: z_emp=1.34, single p=0.101, 'any of five' p=0.414
+
+[3x3 on cutout centre (5,5), q==0, runmed 0.75 d] n=3053 sigma(10 min)=883 ppm
+   P=4.878611: depth@predicted=   -75 +- 145 formal (n_in=37); phase-null SD=230 ppm; z_emp=-0.33; single-trial p=0.607
+   P=4.852472: depth@predicted=   166 +- 151 formal (n_in=34); phase-null SD=236 ppm; z_emp= 0.70; single-trial p=0.216
+   P=4.814564: depth@predicted=    65 +- 141 formal (n_in=39); phase-null SD=242 ppm; z_emp= 0.27; single-trial p=0.378
+   P=4.869591: depth@predicted=   183 +- 141 formal (n_in=39); phase-null SD=232 ppm; z_emp= 0.79; single-trial p=0.171
+   P=4.789319: depth@predicted=   197 +- 140 formal (n_in=40); phase-null SD=237 ppm; z_emp= 0.83; single-trial p=0.162
+   best of five: P=4.789319 z_emp=0.83; chance that the best of five random-phase periods reaches this = 0.602   | P=4.814564 alone: z_emp=0.27, single p=0.378, 'any of five' p=0.907
+
+Gaussian reading of the authors' own number: z=2.55 -> one-sided p=0.0054; any of five: 0.027

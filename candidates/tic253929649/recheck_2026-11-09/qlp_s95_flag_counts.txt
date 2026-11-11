@@ -1,0 +1,7 @@
+# Flag counts in QLP sector 95 for TIC 253929649, file hlsp_qlp_tess_ffi_s0095-0000000253929649_tess_v01_llc.fits (computed 2026-11-09)
+# transit window: |t - T_obs| < 0.5*T14 (modulo P), P = 4.814602 d, T_obs = 3895.78752 BTJD, T14 = 1.1 h
+cadences_total=10626
+flag_2^29_total=856
+cadences_in_window=99
+flag_2^29_in_window=0
+flag_2^30_in_window=40

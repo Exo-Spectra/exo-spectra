@@ -1,0 +1,84 @@
+##### TIC 253929649 | one-per-sector SPOC>TESS-SPOC>QLP, strict mask, running median
+  series: ['TESS-SPOC-s1', 'SPOC-s28', 'TESS-SPOC-s68', 'QLP-s95']  n=8974 baseline=2581 d  n_periods=633801 durations[h]=[0.82 1.1  1.65]
+  dips: max SNR=6.60; median=3.28; 99.9th pct=5.37
+      P=11.09750 d  SNR=6.60  depth=543 ppm  dur=1.16 h  t0=1331.9801
+      P=3.51372 d  SNR=6.47  depth=264 ppm  dur=1.65 h  t0=1327.4942
+      P=13.01781 d  SNR=6.35  depth=525 ppm  dur=1.65 h  t0=1329.0067
+      P=7.03699 d  SNR=6.24  depth=408 ppm  dur=1.16 h  t0=1331.0383
+      P=14.34113 d  SNR=6.21  depth=804 ppm  dur=1.16 h  t0=1339.5014
+      P=12.00577 d  SNR=6.19  depth=476 ppm  dur=1.65 h  t0=1337.3255
+      P=12.78036 d  SNR=6.16  depth=559 ppm  dur=1.16 h  t0=1337.7208
+      P=1.05160 d  SNR=6.09  depth=164 ppm  dur=1.16 h  t0=1326.2808
+  >> claimed P=4.814602: best nearby P=4.81487 SNR=5.16 depth=300 ppm dur=1.16 h t0=1328.4395; fraction of all trial periods with higher SNR = 0.00217
+     listed period 4.878611: best nearby P=4.87738 SNR=4.51 depth=270 ppm
+     listed period 4.852472: best nearby P=4.84996 SNR=4.82 depth=267 ppm
+     listed period 4.814564: best nearby P=4.81487 SNR=5.16 depth=300 ppm
+     listed period 4.869591: best nearby P=4.86998 SNR=4.35 depth=278 ppm
+     listed period 4.789319: best nearby P=4.78914 SNR=4.90 depth=242 ppm
+  bumps (inverted flux): max SNR=6.68; median=3.27; 99.9th pct=5.27
+      P=7.37376 d  SNR=6.68  depth=449 ppm  dur=1.16 h  t0=1330.6189
+      P=8.76050 d  SNR=6.38  depth=502 ppm  dur=1.16 h  t0=1328.7145
+      P=14.74739 d  SNR=6.37  depth=683 ppm  dur=0.83 h  t0=1330.6258
+      P=7.78023 d  SNR=6.35  depth=465 ppm  dur=1.16 h  t0=1329.0789
+      P=2.32595 d  SNR=6.29  depth=259 ppm  dur=1.16 h  t0=1326.2051
+      P=7.52544 d  SNR=6.21  depth=438 ppm  dur=1.16 h  t0=1330.6258
+      P=4.54254 d  SNR=6.17  depth=434 ppm  dur=0.83 h  t0=1328.6801
+      P=10.99175 d  SNR=6.13  depth=592 ppm  dur=1.16 h  t0=1334.6751
+  >> claimed-period peak SNR 5.16 vs highest dip 6.60 vs highest bump 6.68; number of distinct bump peaks above the claimed peak: see list
+
+##### TIC 253929649 | QLP only, strict mask, own detrending of SAP
+  series: ['QLP-s1', 'QLP-s28', 'QLP-s68', 'QLP-s95']  n=8789 baseline=2581 d  n_periods=633780 durations[h]=[0.82 1.1  1.65]
+  dips: max SNR=7.51; median=3.35; 99.9th pct=5.65
+      P=12.76604 d  SNR=7.51  depth=782 ppm  dur=1.65 h  t0=1327.8251
+      P=10.86630 d  SNR=6.90  depth=595 ppm  dur=1.65 h  t0=1331.2213
+      P=13.57108 d  SNR=6.72  depth=620 ppm  dur=1.65 h  t0=1328.0588
+      P=3.48163 d  SNR=6.64  depth=338 ppm  dur=1.65 h  t0=1326.6769
+      P=12.53685 d  SNR=6.62  depth=849 ppm  dur=1.65 h  t0=1336.5151
+      P=11.60382 d  SNR=6.50  depth=675 ppm  dur=1.65 h  t0=1330.5132
+      P=11.75343 d  SNR=6.49  depth=756 ppm  dur=1.65 h  t0=1332.5619
+      P=6.93429 d  SNR=6.49  depth=494 ppm  dur=1.16 h  t0=1327.0104
+  >> claimed P=4.814602: best nearby P=4.81699 SNR=5.46 depth=304 ppm dur=1.65 h t0=1329.5232; fraction of all trial periods with higher SNR = 0.00204
+     listed period 4.878611: best nearby P=4.87736 SNR=4.89 depth=352 ppm
+     listed period 4.852472: best nearby P=4.85184 SNR=4.61 depth=362 ppm
+     listed period 4.814564: best nearby P=4.81699 SNR=5.46 depth=304 ppm
+     listed period 4.869591: best nearby P=4.86752 SNR=4.84 depth=275 ppm
+     listed period 4.789319: best nearby P=4.78961 SNR=5.58 depth=295 ppm
+  bumps (inverted flux): max SNR=7.02; median=3.28; 99.9th pct=5.28
+      P=13.98984 d  SNR=7.02  depth=747 ppm  dur=1.16 h  t0=1326.6391
+      P=2.49909 d  SNR=6.79  depth=329 ppm  dur=1.16 h  t0=1327.7391
+      P=10.49324 d  SNR=6.60  depth=800 ppm  dur=0.83 h  t0=1327.2441
+      P=3.91099 d  SNR=6.45  depth=322 ppm  dur=1.65 h  t0=1328.9869
+      P=9.83857 d  SNR=6.42  depth=501 ppm  dur=1.65 h  t0=1326.6151
+      P=14.89988 d  SNR=6.35  depth=548 ppm  dur=1.65 h  t0=1326.6494
+      P=2.93937 d  SNR=6.32  depth=396 ppm  dur=0.83 h  t0=1328.3441
+      P=3.34441 d  SNR=6.30  depth=422 ppm  dur=0.83 h  t0=1325.7729
+  >> claimed-period peak SNR 5.46 vs highest dip 7.51 vs highest bump 7.02; number of distinct bump peaks above the claimed peak: see list
+
+##### TIC 253929649 | QLP only, lightkurve default mask, QLP-detrended flux (discovery-like setting)
+  series: ['QLP-s1', 'QLP-s28', 'QLP-s68', 'QLP-s95']  n=11414 baseline=2582 d  n_periods=634026 durations[h]=[0.82 1.1  1.65]
+  dips: max SNR=8.70; median=3.81; 99.9th pct=6.73
+      P=13.48376 d  SNR=8.70  depth=722 ppm  dur=1.65 h  t0=1334.2934
+      P=13.04222 d  SNR=8.50  depth=777 ppm  dur=1.65 h  t0=1326.4078
+      P=14.79290 d  SNR=8.47  depth=1138 ppm  dur=0.83 h  t0=1333.0043
+      P=14.35651 d  SNR=8.17  depth=1198 ppm  dur=0.83 h  t0=1326.4112
+      P=12.54509 d  SNR=8.13  depth=736 ppm  dur=1.65 h  t0=1335.2421
+      P=12.12520 d  SNR=8.07  depth=831 ppm  dur=1.16 h  t0=1336.4212
+      P=10.05922 d  SNR=7.90  depth=784 ppm  dur=0.83 h  t0=1329.3606
+      P=13.80444 d  SNR=7.79  depth=1085 ppm  dur=0.83 h  t0=1328.5975
+  >> claimed P=4.814602: best nearby P=4.81405 SNR=5.49 depth=309 ppm dur=1.65 h t0=1329.9278; fraction of all trial periods with higher SNR = 0.02244
+     listed period 4.878611: best nearby P=4.87735 SNR=7.43 depth=490 ppm
+     listed period 4.852472: best nearby P=4.85240 SNR=6.48 depth=361 ppm
+     listed period 4.814564: best nearby P=4.81405 SNR=5.49 depth=309 ppm
+     listed period 4.869591: best nearby P=4.86952 SNR=6.27 depth=439 ppm
+     listed period 4.789319: best nearby P=4.79186 SNR=5.02 depth=242 ppm
+  bumps (inverted flux): max SNR=9.02; median=3.85; 99.9th pct=7.11
+      P=13.01603 d  SNR=9.02  depth=1168 ppm  dur=0.83 h  t0=1331.4781
+      P=12.12235 d  SNR=8.79  depth=746 ppm  dur=1.65 h  t0=1337.1671
+      P=13.74918 d  SNR=8.70  depth=986 ppm  dur=1.16 h  t0=1339.0131
+      P=14.93132 d  SNR=8.53  depth=902 ppm  dur=1.65 h  t0=1328.2846
+      P=14.59158 d  SNR=8.49  depth=1005 ppm  dur=1.65 h  t0=1328.1609
+      P=13.50933 d  SNR=8.32  depth=769 ppm  dur=1.65 h  t0=1329.6940
+      P=14.28984 d  SNR=8.32  depth=808 ppm  dur=1.65 h  t0=1338.5903
+      P=12.75152 d  SNR=8.27  depth=1057 ppm  dur=0.83 h  t0=1332.3100
+  >> claimed-period peak SNR 5.49 vs highest dip 8.70 vs highest bump 9.02; number of distinct bump peaks above the claimed peak: see list
+

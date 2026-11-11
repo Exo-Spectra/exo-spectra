@@ -1,0 +1,19 @@
+# Log of the note's timing run for TIC 253929649 (project file timing_summary.txt, 2026-10-11 22:42).
+# Polish: 'brak lokalnej detekcji (SNR<2) - pomijam w ficie' = no local detection (SNR<2), skipped in the fit;
+# 'FINALNA EFEMERYDA (fit liniowy do 6 momentow)' = final ephemeris (linear fit to 6 transit times);
+# 'glebokosc wazona' = weighted depth.
+  SPOC-s28      : dt=  +43.6 +/- 24.0 min, depth=   416 +/-  145 ppm, SNR= 2.9, N=155
+  TESS-SPOC-s1  : dt=  +21.6 +/- 44.0 min, depth=   363 +/-  171 ppm, SNR= 2.1, N=2
+  TESS-SPOC-s28 : dt=  +47.6 +/- 12.5 min, depth=   384 +/-  145 ppm, SNR= 2.6, N=155
+  TESS-SPOC-s68 : brak lokalnej detekcji (SNR<2) - pomijam w ficie
+  QLP-s1        : brak lokalnej detekcji (SNR<2) - pomijam w ficie
+  QLP-s28       : brak lokalnej detekcji (SNR<2) - pomijam w ficie
+  QLP-s68       : dt=  +53.6 +/- 19.0 min, depth=   399 +/-  135 ppm, SNR= 3.0, N=382
+  QLP-s95       : dt=  -38.4 +/-  7.6 min, depth=   467 +/-  108 ppm, SNR= 4.3, N=533
+  own-s106      : dt= +109.6 +/-  9.3 min, depth=   520 +/-  146 ppm, SNR= 3.6, N=606
+
+FINALNA EFEMERYDA (fit liniowy do 6 momentow):
+  P  = 4.814602 +/- 0.000020 d
+  T0 = 1329.65122 +/- 0.00978 BTJD
+  chi2_red(O-C) = 39.51; residua: +16, -6, +20, +25, -67, +81 min
+  glebokosc wazona = 432 +/- 56 ppm (Rp = 1.64 R_Earth przy R*=0.722)
