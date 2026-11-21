@@ -11,6 +11,22 @@ tools and different assumptions. This project treats the archive as a single
 dataset and runs uniform, model-free statistics across all of it — on a home
 PC, using only public data.
 
+## Project status: concluded (November 2026)
+
+The project is finished; this is its final release. Besides the eight archive studies below, it leaves:
+
+| what | where | in short |
+|---|---|---|
+| 9 new eclipsing binaries | [`catalogs/new-eclipsing-binaries-2026/`](catalogs/new-eclipsing-binaries-2026/) | not in VSX; 6 bright TESS systems (described in a note submitted to OEJV) and 3 faint background stars found as the sources of false transit signals; ephemerides and caveats for observers |
+| DASCH coverage of exoplanet hosts | [`catalogs/dasch-host-coverage/`](catalogs/dasch-host-coverage/) | how many usable century-long Harvard plate measurements exist for 2246 hosts with B ≤ 14 |
+| TESS planet candidates | [`candidates/`](candidates/) | final status of every vetted candidate: none confirmed, each with the reason it was closed |
+
+The withdrawn 1360-entry eclipsing-binary catalog (`eb-catalog-v1.0/v1.1`, [`catalogs/eb-deep-band-2026/`](catalogs/eb-deep-band-2026/))
+is superseded by the 9-star list above. The catalogs of the final release also use TESS, ZTF, Gaia, ASAS-SN, VSX and
+DASCH data; their acknowledgements are in each catalog's README.
+The main methodological lesson, which affects anyone searching QLP light curves for shallow transits, is in
+[`candidates/README.md`](candidates/README.md).
+
 ## Studies
 
 | # | study | one-line result | release |

@@ -1,3 +1,15 @@
+# TIC 194121063 -- WITHDRAWN candidate (blend with a background eclipsing binary)
+
+> **Status (2026-11-17): withdrawn by the author.** The transit-like dips are not from TIC 194121063. They come from
+> TIC 194121086 (Gaia DR3 1870711389915367552), a previously uncatalogued eclipsing binary 39″ away, which in ZTF
+> fades by about 0.5 mag every 4.732 d at the same moments and has an eccentric orbit (secondary eclipse at phase
+> 0.445). Our vetting searched for a secondary eclipse only near phase 0.5 and checked neighbours too close to the
+> target, so it missed this. The RNAAS note (AAS83333) was declined by the journal on 2026-11-18 and will not be
+> published. TIC 194121086 is listed in `catalogs/new-eclipsing-binaries-2026/`. Do not use the candidate parameters
+> in the original report below.
+
+---
+
 # TIC 194121063 -- transiting sub-Neptune candidate
 
 > Vetting data package accompanying the RNAAS note submitted in November 2026

@@ -6,14 +6,17 @@ authors:
     given-names: "Mateusz"
 repository-code: "https://github.com/Exo-Spectra/exo-spectra"
 license: MIT
-version: 1.5.2
-date-released: 2026-11-09
+version: 2.0.0
+date-released: 2026-11-22
 keywords:
   - exoplanets
   - transmission spectroscopy
   - atmospheric variability
   - anomaly detection
   - NASA Exoplanet Archive
+  - eclipsing binaries
+  - TESS
+  - DASCH
 abstract: >
   Homogeneous statistical analysis of all published exoplanet atmospheric
   spectra in the NASA Exoplanet Archive: (1) an archive-wide catalog of
@@ -32,7 +35,13 @@ abstract: >
   result with a uniform upper-limit catalog, (6) a transit-timing check
   and blind dip search across the 22 JWST visits: 22 fresh mid-transit times
   (the K2-18 b archive ephemeris runs ~51 minutes late) and zero credible
-  new transit candidates, and (7) a chromatic limb-asymmetry search in 8
+  new transit candidates, (7) a chromatic limb-asymmetry search in 8
   wavelength bins per detector with injection-calibrated errors: no
   band-vs-continuum contrast at FDR 1%, two ~3.3 sigma follow-up candidates,
-  and the first per-band upper-limit catalog for this sample.
+  and the first per-band upper-limit catalog for this sample, and (8) a
+  144-cell nested-sampling retrieval-robustness matrix on controlled
+  spectrum pairs. The final release (v2.0.0, November 2026), which
+  concludes the project, adds nine new eclipsing binaries from TESS and ZTF
+  (superseding the withdrawn 1360-entry catalog), a DASCH DR7 plate-coverage
+  table for 2246 exoplanet host stars, and the final status of all TESS
+  planet candidates from the project (none confirmed).

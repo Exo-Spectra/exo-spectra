@@ -1,5 +1,8 @@
 # WITHDRAWN (v1.1, 2026-11-09): "1360 Uncatalogued Eclipsing Binary Candidates from TESS Full-Frame Images"
 
+> **Superseded (2026-11-21):** the eclipsing binaries from this catalog that hold up are listed in
+> [`../new-eclipsing-binaries-2026/`](../new-eclipsing-binaries-2026/).
+
 **EXO-SPECTRA project. Catalog release v1.1, which withdraws 1340 of the 1360 entries of v1.0
 and withdraws the claim that the remaining ones are uncatalogued.**
 

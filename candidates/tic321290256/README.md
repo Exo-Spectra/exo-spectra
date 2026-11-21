@@ -1,3 +1,18 @@
+# TIC 321290256 -- unconfirmed candidate, closed (2026-11-21)
+
+> **Status: not confirmed; the project is closed.** The RNAAS note (AAS83340) was declined on 2026-11-18 under the
+> journal's new policy for notes on transits of small numbers of sources, and will not be published. Four weaknesses
+> remain: (1) when the period is chosen on all data, the empirical false-alarm probability is p ≈ 0.05–0.06, which is
+> not significant at the 1 % level; (2) a Gaia neighbour 2.1″ away (ΔG = 2.9) could produce the signal if it dimmed by
+> ~0.6–0.9 % (depending on which depth below is right); only seeing-limited photometry that resolves the pair, or
+> high-resolution imaging, can exclude this; (3) a search for a secondary eclipse at all orbital phases, the check that
+> exposed TIC 194121063 as a blend, was planned but never run; (4) TESS-SPOC does not show the signal (clearly so in
+> sector 35); the report below attributes this to PDCSAP detrending, supported only by our own raw-pixel photometry
+> (+685 ± 59 ppm in sector 35).
+> The data package below is kept for anyone who wants to follow it up.
+
+---
+
 # TIC 321290256 -- transiting super-Earth-sized candidate
 
 > Vetting data package accompanying the RNAAS note submitted in November 2026
